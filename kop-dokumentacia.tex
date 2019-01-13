@@ -7,6 +7,7 @@
 \usepackage{graphicx}
 \renewcommand{\dateseparator}{.}
 \renewcommand{\figurename}{Obr.}
+\renewcommand{\contentsname}{Obsah}
 \graphicspath{ {/home/andras/Documents/kop/img/} }
 \title{\textbf{Jednozvodový elektrokardiograf} \\
 \large Praktická časť odbornej zložky maturitnej skúšky}
@@ -19,7 +20,7 @@
 		\fancyhead[C] {Stredná priemyselná škola elektrotechnická S. A. Jedlika v Nových Zámkoch}
 		\fancyfoot[L] {
 			\begin{flushleft}
-				Nové Zámky, 2018
+				Nové Zámky, 2019
 			\end{flushleft}		
 		}
 		\fancyfoot[R] {
@@ -35,7 +36,7 @@
 
 
 \section*{Praktická časť odbornej zložky maturitnej skúšky}
-\underline{Zadanie úlohy pre komplexnú maturitnú skúšku:} 
+a \underline{Zadanie úlohy pre komplexnú maturitnú skúšku:} 
 \newline
 
 \begin{description}
@@ -94,7 +95,7 @@
 \hrulefill
 \\\hspace*{0mm}\phantom{v.r.: }Zástupkyňa riaditeľa školy
 
-\vspace{15mm}
+\vspace{10mm}
 V Nových Zámkoch dňa \today
 
 
@@ -110,9 +111,21 @@ Ja, dolupodpísaný András Zemes, študent 4. IT triedy Strednej priemyselnej �
 \section*{Poďakovanie}
 Touto cestou by som sa chcel poďakovať všetkým, ktorí mi akýmkoľvek spôsobom pomohli a povzbudzovali ma pri vypracovaní mojej komplexnej maturitnej práce. Predovšetkým však patrí moja vďaka konzultantovi, Mgr. Petrovi Hudecovi, za jeho všestrannú pomoc, za vedenie a cenné pripomienky pri záverečnom spracovaní práce.
 
+\newpage
+\tableofcontents
 
 \newpage
-\section{Princíp fungovania EKG}
+\section{Ciele}
+Kľúč úspešného elektrotechnického projektu spočíva v dokonalej spolupráci jeho elektronických a informačných zložiek. Zámerom tejto práce je poukázať na to, že aj pomerne jednoduchými komponentmi sa dajú vyriešiť komplexné problémy. 
+
+Dôležité aspekty výslednej práce sú univerzálnosť, portabilita a intuitívny dizajn. Prístroj by mal dokázať použiť každý bez špeciálneho vybavenia a bez podrobnej znalosti jeho fungovania. Riešenie má byť taktiež prenosné, aby bolo neobmedzene využiteľné.
+
+Pri návrhu plošného spoja sa muselo prihliadať i na bezpečnosť pri použití prístroja. Elektrokardiograf sleduje pulz snímaním elektrických potenciálov srdca z povrchu tela elektródami. Napájaním obvodu z AA článkov a ochranou malým napätím sa zabránilo výskytu nečakaných a potenciálne rizikových situácií.
+
+Pomocou jednozvodového EKG vieme určiť pulz, srdcový rytmus, ba aj odhaliť prítomnosť srdových arytmií a fibrilácie predsiení. Projekt môže taktiež slúžiť ako pomôcka pri výučbe elektroniky, programovania či informatiky. Znázorňuje fungovanie signálových filtrov, operačných zosilňovačov, mikrokontrolérov a grafických počítačových aplikácií.
+
+\newpage
+\section{Teória elektrokardiografie}
 \subsection{Elektrofyziológia srdca}
 
 Základom vnútorného fungovania srdca je jeho elektrická aktivita. Srdce je jedinečný orgán z hľadiska, že jeho elektrická činnosť nie je nervovo založená. Je riadená špecializovanými vodivými svalovými bunkami. Zväzky takýchto buniek podmieňujú čerpaciu schopnosť srdca.
@@ -160,7 +173,75 @@ Po depolarizácii nastáva protikladný dej, repolarizácia, keď sa ióny znovu
 
 %https://www.jfmed.uniba.sk/fileadmin/jlf/Pracoviska/ustav-patologickej-fyziologie/07Pregradualne_studium/01Vseobecne_lekarstvo/04Handouty_a_prednasky/01Handouty/01Elektrokardiografi1-jun10.pdf
 
+
+\newpage 
+\subsection{Prehľad prístrojov EKG}
+\subsubsection{Druhy funkčných vyšetrení}
+Elektrokardiografia je jedným zo základných lekárskych vyšetrení. Najčastejšie sa využíva v núdzových situáciách pri podozrení na srdcový infarkt, na zistenie poruchy súvisiacej s kardiovaskulárnym systémom alebo ako preventívne vyšetrenie so zámerom odhaliť možný srdcový defekt.
+
+Vyšetrenie EKG je neinvazívne a nevyžaduje žiadnu špeciálnu prípravu. Pri klasickom EKG sa elektródy pripevnia na hrudník, zápästia a členky pacienta. Elektrické signály zachytené z povrchu tela, ktoré sú spravidla veľmi slabé, v rádoch milivoltov, prístroj zosilní a zaznamená. Následne ich lekár vyhodnotí.
+
+Existuje niekoľko rôznych druhov vyšetrní:
+\begin{itemize}
+	\item \textbf{Štandardné 12-zvodové EKG} je najčastejšie používaný zo všetkých typov EKG. Pozostáva zo 6 končatinových zvodov a 6 hrudných zvodov. Každý zvod je samostatne zapisovaný na priebežne sa posunujúci špeciálny záznamový papier, prípadne zobrazuje hodnoty na monitore.
+	\item \textbf{Záťažové EKG (ergometria)} ukáže správanie srdca a obehového systému pri námahovej aktivite. Na simuláciu sa väčšinou používa stacionárny bicykel alebo bežecký pás. Monitoruje sa záznam EKG v súvislosti s krvným tlakom. Na zázname sa pátra po zmenách, ktoré na EKG urobenom v pokoji nie sú viditeľné.
+	\item \textbf{Dynamické EKG} umožňuje sledovať srdcovú činnosť pri bežných aktivitách počas 12-48 hodín. Zvýšením doby monitorovania sa zvyšuje pravdepodobnosť nálezu nepravidelností rytmu alebo námahových ischémií myokardu v zázname.
+	\item \textbf{Tlakový Holter}. Ambulantné 24-hodinové sledovanie krvného tlaku je jednoduché vyšetrenie často indikované pri diagnostikovaní hypertenzie. Sníma sa tlak krvi v domácom prostredí pri každodenných činnostiach pomocou nafukovacej manžety.
+\end{itemize}
+
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[scale=1]{holter}
+\includegraphics[scale=0.4]{portable-ecg}
+\caption{Príprava pacienta na 24-48 hodinové monitorovanie a Holterov monitor}
+\end{center}
+\end{figure}
+
 \newpage
+
+
+\subsubsection{Časti klasického prístroja EKG}
+
+\textbf{Tepelná tlačová hlava}
+\\
+Kreslí EKG krivku generovaním tepla.
+\\
+\\
+\textbf{Termopapier}
+\\
+Prichádza do kontaktu s tlačovou hlavou. Na mieste dotyku sa farba papiera mení na čiernu, takto vzniká krivka EKG. Papier je tiež citlivý na tlak.
+\\
+\\
+\textbf{Elektródy}
+\\
+Elektródy sú vyrobené z vodivého materiálu, ktorý dokáže zachytiť elektrické impulzy zo srdca. Signály odosielajú na spracovanie do meracieho prístroja cez pripojené káble.
+\\
+\\
+\textbf{Zosilňovač}
+\\
+Zosilňovač je zariadenie, ktoré sa nachádza v elektrokardiografe a zvyšuje amplitúdu elektrického signálu. Signály prichádzajúce zo srdca sú relatívne slabé (0,0001V až 0,003V) a je potrebné ich zosilniť.
+\\
+\\
+\textbf{Galvanometer}
+\\
+Premieňa prúd na mechanický pohyb.
+\\
+\\
+\textbf{Sada EKG káblov}
+\\
+Slúžia na spojenie zvyčajne desiatich elektród s hlavnou jednotkou prístroja EKG. Takáto konfigurácia umožňuje monitorovať srdce z 12 ,,pohľadov".
+
+\subsubsection{Výdobytky modernej elektrokardiografie}
+Moderné prístroje EKG disponujú zabudovanými mikroprocesormi, ktoré ich riadia a rozširujú ich diagnostické schopnosti. Vďaka sofistikovaným matematickým algoritmom a modelom sú schopné previesť zložitú analýzu signálu a automaticky ho vyhodnotiť. Sú kompaktné, prenosné a vhodné i na monitorovanie mimo zdravotníckeho zariadenia.
+
+Prepojiteľnosť s počítačom je v dnešnej dobe takmer samozrejmosťou, niektoré dokonca komunikujú bezdrôtovo a aj na diaľku. Digitalizácia údajov môže byť výhodná naporíklad z hľadiska archivácie alebo v prípade potreby zdieľať záznam so špecialistom.
+
+Kardiologický monitor je častým rozšírením zariadenia EKG a umožňuje dlhodobo sledovať srdcovú aktivitu pacienta. Údaje zobrazuje v reálnom čase a ponúka náhľad kriviek ešte pred ich zápisom na papier.
+
+
+\newpage
+
 \subsection{Umiestnenie elektród}
 Tri končatinové elektródy (pravá ruka, ľavá ruka, ľavá noha)  vytvárajú Einthovenov trojuholník. Vzniknú 3 \emph{bipolárne zvody} reprezentované stranami trojuholníka. Každý zvod pozostáva z dvoch elektród, z pozitívneho a z negatívneho. Pozitívny a negatívny pól spolu tvoria elektrický vektor, ktorý sa premieta na papier.
 
@@ -194,39 +275,75 @@ Einthoven definoval rozdiely potenciálov medzi troma pármi horeuvedených bodo
 %http://www.bem.fi/book/15/15.htm
 
 
-\newpage 
-\subsection{Prehľad prístrojov EKG}
+\subsection{Signál a jeho spracovanie}
+Po úspešnom zmeraní a zosilnení signálu čelíme zložitej prekážke v snahe zachytiť srdcový rytmus. Signál je síce zosilnený, ale naďalej obsahuje mnoho nežiaducich elementov vplyvom rušivých faktorov z okolia. Výsledkom je skreslený biosignál, ktorý je v tejto fáze nepoužiteľný.
 
+Nepresnosti v meraniach odborne nazývame \emph{artefakty}. Artefakty sa môžu prejavovať v menšej či väčšej miere v závislosti od nedokonalostí v priebehu vedenia signálu z pacienta do aparatúry (prístroja). V elektrokardiografii rozoznávame tri základné druhy artefaktov:
+\begin{itemize}
+	\item sieťový brum
+	\item kolísanie nulovej línie (drift)
+	\item myopotenciály
+\end{itemize}
 
-\newpage
-\section*{Problematika a prehľad literatúry}
-Srdcovú činnosť umožňujú malé elektrické impulzy, ktoré sa šíria po prevodovom systéme a pracovnom myokarde. Menia elektrické potenciály na rôznych bodoch pokožky približne o tisícinu voltu (1 mV). Táto elektrická aktivita v sebe skrýva neuveriteľné množstvo informácií, prostredníctvom ktorých môžeme získať náhľad do fungovania tohto zázračného orgánu.
+V minimalizácii nežiaduceho šumu nám napomáha súbor špecializovaných hardvérových i digitálnych filtrov.
 
-K zachyteniu a odhaleniu signálu sa našťastie žiadne špeciálne vybavenie nevyžaduje. Odmerať ho dokážeme aj jednoduchým prístrojom vyrobeným doma.
+\subsubsection{Sieťový brum}
+Prvým krokom spracovania signálu je základná hardvérová filtrácia. Elektromagnetická interferencia (EMI) vzniká pôsobením  elektromagnetického poľa z elektrickej siete. Pri tomto jave dochádza k vzniku indukovaného napätia (Ui) a indukovaného prúdu na vodiči. Šum opísaného druhu môžeme charakterizovať pri frekvencii 50 Hz sínusového rušenia. Na potlačenie sieťového brumu je účinná kombinácia hardvérového RC článku s digitálnym filtrom. 
 
-Výzvou pokusu je spoľahlivo zosilniť pomerne slabý, milivoltový signál meniaci sa každú stotinu sekundy. 
+\subsubsection{Potlačenie driftu}
+Drift alebo kolísanie nulovej línie opisuje skupinu elektrochemických a mechanických javov. Príkladmi elektrochemických sú potenie pod elektródami, nedostatočné odmastenie pokožky, malé množstvo kontaktného gélu. Dýchanie (do 0,8 Hz) a pomalé pohyby klienta (do 2 Hz) sú mechanické javy. Na odstránenie nízkofrekvenčnej rušivej zložky použijeme hornopriepustný filter.
 
-
-
-\newpage
-\section*{Ciele}
-Kľúč úspešného elektrotechnického projektu spočíva v dokonalom zosúladení jeho elektronických a informačných zložiek. Zámerom tejto práce je poukázať na to, že aj pomerne jednoduchými komponentmi sa dajú vyriešiť komplexné problémy. 
-
-Dôležité aspekty výslednej práce sú univerzálnosť, portabilita a intuitívny dizajn. Prístroj by mal vedieť použiť každý bez špeciálneho vybavenia a bez podrobnej znalosti jeho fungovania. Riešenie má byť taktiež prenosné, aby bolo neobmedzene využiteľné.
-
-Pri návrhu plošného spoja sa muselo prihliadať i na bezpečnosť pri použití prístroja. Elektrokardiograf sleduje pulz snímaním elektrických potenciálov srdca z povrchu tela elektródami. Izoláciou elektród od zdroja sa zabránilo výskytu nečakaných a potenciálne rizikových situácií.
-
-Pomocou jednozvodového EKG vieme určiť pulz, srdcový rytmus, ba aj odhaliť prítomnosť srdových arytmií a fibrilácie predsiení. Projekt môže taktiež slúžiť ako pomôcka pri výučbe elektroniky, programovania či informatiky. Znázorňuje fungovanie signálových filtrov, operačných zosilňovačov, mikrokontrolérov a grafických počítačových aplikácií.
+\subsubsection{Myopotenciály}
+Ďalší rušivý faktor pri vyšetrení EKG predstavuje svalová aktivita, najmä pri záťažovom EKG. Svaly počas pohybu vytvárajú elektrické impulzy, ktoré sa potom prejavujú vo forme muskuloskeletálneho artefaktu. Najväčším problémom v zdolaní účinku myopotenciálov je vzájomné prekrývanie frekvenčného pásma svalovej aktivity a užitočného pásma EKG. Na odstránenie tohto artefaktu nie je účinná pásmová priepusť. Vyžaduje sa pokročilejšie riešenie, napríklad pomocou adaptívnej filtrácie. 
 
 \newpage
-\section*{Prvý prototyp zosilňovacieho obvodu}
-Ku dňu 15.10.2018 som na vývojovej doske zostavil funkčný prototyp zosilňovacieho obvodu elektrokardiografu. Z bezpečnostných dôvodov je zdrojom elektrického obvodu 9V batéria. Operačný zosilňovač LM741 slúži na zosilnenie nízkonapäťového vstupu z elektród priložených na povrch tela. 
+\subsubsection{Voľba filtrov}
+\subsubsection*{Nekonečná impulzná odozva - IIR}
+\subsubsection*{Konečná impulzná odozva - FIR}
 
-Analógový výstup je spracovaný pomocou analógovo-digitálneho prevodníka zvukovej karty počítača. Signál softvérovo filtruje a graficky zobrazuje počítačová aplikácia.
+
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[scale=0.4]{flowchart}
+\caption{Bloková schéma spracovania EKG}
+\end{center}
+\end{figure}
+
+\newpage
+\section{Návrh a konštrukcia hardvéru}
+Proces návrhu hardvérových komponentov som si rozdelil do niekoľkých fáz kvôli systematickosti. Takýto spôsob práce mi umožnil priebežné testovanie a odhaľovanie možných chýb počas vývoja. Od začiatku až po finálny dizajn som prešiel tromi iteráciami projektu. 
+
+Na návrh elektroniky a dizajn plošných spojov som používal grafický počítačový editor Eagle (verzia 9.1.3).
+
+Prvý prototyp obvodu bol vyrobený podľa jednoduchej schémy. Pozostávala iba z jedného operačného zosilňovača a zopár rezistorov. Z bezpečnostných dôvodov bola namiesto laboratórneho zdroja použitá 9V batéria na napájanie obvodu. 
+
+Operačný zosilňovač LM741 slúži na zosilnenie nízkonapäťového vstupu z elektród priložených na povrch tela. Je zapojený v diferenčnej konfigurácií, jeho invertujúci a neinvertujúci vstup predstavujú rozdielne napätia. Výstup je teda funkciou napäťovej diferencie medzi dvoma hrudnými elektródami. Faktor zisku je približne 50 podľa pomeru R5:R4. Z dôvodu, že zosilňovač funguje optimálne pre stredové hodnoty (medzi maximom a minimom), je nutné jeho vstupy dostať do použiteľného pásma. Na tento účel slúži napäťový delič R1-R2.
+
+Analógový výstup bol pripojený do 3,5 mm mikrofónového rozhrania zvukovej karty počítača. Signál prešiel základnou softvérovou filtráciou a bol graficky zobrazovaný pomocou počítačovej aplikácie.
+
+Hlavnou problematikou tohto návrhu bola všeobecná nespoľahlivosť a výskyt elektromagnetickej interferencie a iných artefaktov v meraných hodnotách.
+
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[scale=1]{schematic}
+\caption{Schéma zosilňovacieho obvodu}
+\end{center}
+\end{figure}
+
+Na minimalizáciu rušivých faktorov sa môže použiť pasívny RC dolnopriepustný filter.
+
 
 Ďalším krokom je osamostatniť AD prevod signálu prostredníctvom mikrokontroléra. Aby sa to mohlo uskutočniť, zosilnený signál s negatívnou napäťovou zložkou sa musí premapovať  na rozsah kompatibilný s prevádzkovým rozsahom napätia mikrokontroléra.
 
-Hlavnou problematikou tohto návrhu je výskyt elektromagnetickej interferencie v meraných hodnotách. Na minimalizáciu rušivých faktorov sa môže použiť pasívny RC dolnopriepustný filter.
+
+\newpage
+Srdcovú činnosť umožňujú malé elektrické impulzy, ktoré sa šíria po prevodovom systéme a pracovnom myokarde. Menia elektrické potenciály na rôznych bodoch pokožky približne o tisícinu voltu (1 mV). Táto elektrická aktivita v sebe skrýva neuveriteľné množstvo informácií, prostredníctvom ktorých môžeme získať náhľad do fungovania tohto zázračného orgánu.
+
+K zachyteniu a odhaleniu signálu sa žiadne špeciálne vybavenie nevyžaduje. Odmerať ho dokážeme aj pomerne jednoduchým prístrojom.
+
+Výzvou pokusu je spoľahlivo zosilniť a rozoznať pomerne slabý, milivoltový signál meniaci sa každú stotinu sekundy.
 
 \newpage
 \section*{Zoznam použitej literatúry}
@@ -235,10 +352,16 @@ Hlavnou problematikou tohto návrhu je výskyt elektromagnetickej interferencie 
 \item IAIZZO, Paul A. 2005. Handbook of Cardiac Anatomy, Physiology, and Devices. New Jersey. Human Press, Inc. ISBN 1-59259-835-8.
 \item HANÁČEK, Ján, PLEVKOVÁ, Jana. 2009. Elektrokardiografia - Základné mechanizmy porúch elektrickej funkcie srdca a ich manifestácia na Ekg krivke. Martin. Ústav patologickej fyziológie JLF UK.
 \item MALMIVUO, Jaakko, PLONSEY, Robert. 1995. Bioelectromagnetism - Principles and Applications of Bioelectric and Biomagnetic Fields. Oxford. Oxford University Press.
-\item https://www.swharden.com/wp/2016-08-08-diy-ecg-with-1-op-amp/
-\item https://www.kardiolog.sk/o-srdci/
-\item https://www.techmed.sk/akcny-potencial/
-
+\item BÓRIKOVÁ, Ivana. 2016. Funkčné vyšetrenie respiračného, kardiovaskulárneho a močového systému. Portál Jesseniovej lekárskej fakulty Univerzity Komenského. ISSN 1337-7396.
+\item MIŠČÍK, Peter. 2011. Zpracování elektrokardiogramu. Vysoké učení technické v Brně. 
+\item www.kardiolog.sk/o-srdci/
+\item www.techmed.sk/akcny-potencial/
+\item www.wikiskripta.eu/w/Rušení\_biosignálů\_a\_artefakty
+\item www.swharden.com/wp/2016-08-08-diy-ecg-with-1-op-amp/
+\item www.arduino.cc/en/Tutorial/ArduinoToBreadboard
+\item images-na.ssl-images-amazon.com/images/I/51jDS6PVO6L.\_SX355\_.jpg
+\item cardiocenter.az/uploads/posts/2017-06/1498069942\_4-holter.jpg
+\item github.com/tttapa/Filters
 \end{itemize}
 
 

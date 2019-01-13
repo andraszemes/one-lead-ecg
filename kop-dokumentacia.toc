@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}Ciele}{5}
+\contentsline {section}{\numberline {2}Te\IeC {\'o}ria elektrokardiografie}{6}
+\contentsline {subsection}{\numberline {2.1}Elektrofyziol\IeC {\'o}gia srdca}{6}
+\contentsline {subsection}{\numberline {2.2}Ak\IeC {\v c}n\IeC {\'y} potenci\IeC {\'a}l}{7}
+\contentsline {subsection}{\numberline {2.3}Preh\IeC {\v l}ad pr\IeC {\'\i }strojov EKG}{8}
+\contentsline {subsubsection}{\numberline {2.3.1}Druhy funk\IeC {\v c}n\IeC {\'y}ch vy\IeC {\v s}etren\IeC {\'\i }}{8}
+\contentsline {subsubsection}{\numberline {2.3.2}\IeC {\v C}asti klasick\IeC {\'e}ho pr\IeC {\'\i }stroja EKG}{9}
+\contentsline {subsubsection}{\numberline {2.3.3}V\IeC {\'y}dobytky modernej elektrokardiografie}{9}
+\contentsline {subsection}{\numberline {2.4}Umiestnenie elektr\IeC {\'o}d}{10}
+\contentsline {subsection}{\numberline {2.5}Sign\IeC {\'a}l a jeho spracovanie}{11}
+\contentsline {subsubsection}{\numberline {2.5.1}Sie\IeC {\v t}ov\IeC {\'y} brum}{11}
+\contentsline {subsubsection}{\numberline {2.5.2}Potla\IeC {\v c}enie driftu}{11}
+\contentsline {subsubsection}{\numberline {2.5.3}Myopotenci\IeC {\'a}ly}{11}
+\contentsline {subsubsection}{\numberline {2.5.4}Vo\IeC {\v l}ba filtrov}{12}
+\contentsline {section}{\numberline {3}N\IeC {\'a}vrh a kon\IeC {\v s}trukcia hardv\IeC {\'e}ru}{13}
