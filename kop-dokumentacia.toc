@@ -12,4 +12,10 @@
 \contentsline {subsubsection}{\numberline {2.5.2}Potla\IeC {\v c}enie driftu}{11}
 \contentsline {subsubsection}{\numberline {2.5.3}Myopotenci\IeC {\'a}ly}{11}
 \contentsline {subsubsection}{\numberline {2.5.4}Vo\IeC {\v l}ba filtrov}{12}
-\contentsline {section}{\numberline {3}N\IeC {\'a}vrh a kon\IeC {\v s}trukcia hardv\IeC {\'e}ru}{13}
+\contentsline {section}{\numberline {3}Metodika pr\IeC {\'a}ce}{13}
+\contentsline {subsection}{\numberline {3.1}Zosil\IeC {\v n}ovac\IeC {\'\i } obvod na v\IeC {\'y}vojovej doske}{13}
+\contentsline {subsection}{\numberline {3.2}Sp\IeC {\'a}jkovan\IeC {\'y} obvod}{14}
+\contentsline {subsection}{\numberline {3.3}Fin\IeC {\'a}lny obvod a roz\IeC {\v s}irovacie moduly}{15}
+\contentsline {subsubsection}{\numberline {3.3.1}Mikroprocesor}{15}
+\contentsline {subsubsection}{\numberline {3.3.2}FT232RL program\IeC {\'a}tor s Mini USB}{15}
+\contentsline {subsubsection}{\numberline {3.3.3}Slot pre Micro SD kartu}{16}

@@ -5,6 +5,9 @@
 \usepackage{tabto}
 \usepackage[ddmmyyyy]{datetime}
 \usepackage{graphicx}
+\usepackage{listings}
+\usepackage{siunitx}
+\usepackage[bottom]{footmisc}
 \renewcommand{\dateseparator}{.}
 \renewcommand{\figurename}{Obr.}
 \renewcommand{\contentsname}{Obsah}
@@ -49,7 +52,7 @@ a \underline{Zadanie úlohy pre komplexnú maturitnú skúšku:}
 	\item [Konzultant:]		 	  
 		\tabto{4cm} Mgr. Peter Hudec
 		
-	\item [Skolský rok:] 
+	\item [Školský rok:] 
 		\tabto{4cm} 2018/2019
 		
 	\item [Odbor:]		  
@@ -182,21 +185,18 @@ Elektrokardiografia je jedným zo základných lekárskych vyšetrení. Najčast
 Vyšetrenie EKG je neinvazívne a nevyžaduje žiadnu špeciálnu prípravu. Pri klasickom EKG sa elektródy pripevnia na hrudník, zápästia a členky pacienta. Elektrické signály zachytené z povrchu tela, ktoré sú spravidla veľmi slabé, v rádoch milivoltov, prístroj zosilní a zaznamená. Následne ich lekár vyhodnotí.
 
 Existuje niekoľko rôznych druhov vyšetrní:
-\begin{itemize}
-	\item \textbf{Štandardné 12-zvodové EKG} je najčastejšie používaný zo všetkých typov EKG. Pozostáva zo 6 končatinových zvodov a 6 hrudných zvodov. Každý zvod je samostatne zapisovaný na priebežne sa posunujúci špeciálny záznamový papier, prípadne zobrazuje hodnoty na monitore.
-	\item \textbf{Záťažové EKG (ergometria)} ukáže správanie srdca a obehového systému pri námahovej aktivite. Na simuláciu sa väčšinou používa stacionárny bicykel alebo bežecký pás. Monitoruje sa záznam EKG v súvislosti s krvným tlakom. Na zázname sa pátra po zmenách, ktoré na EKG urobenom v pokoji nie sú viditeľné.
-	\item \textbf{Dynamické EKG} umožňuje sledovať srdcovú činnosť pri bežných aktivitách počas 12-48 hodín. Zvýšením doby monitorovania sa zvyšuje pravdepodobnosť nálezu nepravidelností rytmu alebo námahových ischémií myokardu v zázname.
-	\item \textbf{Tlakový Holter}. Ambulantné 24-hodinové sledovanie krvného tlaku je jednoduché vyšetrenie často indikované pri diagnostikovaní hypertenzie. Sníma sa tlak krvi v domácom prostredí pri každodenných činnostiach pomocou nafukovacej manžety.
-\end{itemize}
+\subsubsection*{Štandardné 12-zvodové EKG}
+Je najčastejšie používaný zo všetkých typov EKG. Pozostáva zo 6 končatinových zvodov a 6 hrudných zvodov. Každý zvod je samostatne zapisovaný na priebežne sa posunujúci špeciálny záznamový papier, prípadne zobrazuje hodnoty na monitore.
+\subsubsection*{Záťažové EKG (ergometria)}
+Ukáže správanie srdca a obehového systému pri námahovej aktivite. Na simuláciu sa väčšinou používa stacionárny bicykel alebo bežecký pás. Monitoruje sa záznam EKG v súvislosti s krvným tlakom. Na zázname sa pátra po zmenách, ktoré na EKG urobenom v pokoji nie sú viditeľné.
+\subsubsection*{Dynamické EKG}
+Umožňuje sledovať srdcovú činnosť pri bežných aktivitách počas 12-48 hodín. Zvýšením doby monitorovania sa zvyšuje pravdepodobnosť nálezu nepravidelností rytmu alebo námahových ischémií myokardu v zázname.
+\subsubsection*{Tlakový Holter}
+Ambulantné 24-hodinové sledovanie krvného tlaku je jednoduché vyšetrenie často indikované pri diagnostikovaní hypertenzie. Sníma sa tlak krvi v domácom prostredí pri každodenných činnostiach pomocou nafukovacej manžety.
+\\
+\\
+EKG určuje základné fyziologické hodnoty ako sú frekvencia srdcovej činnosti, rytmus, elektrická os srdca, prevodové časy a morfológia segmentov EKG krivky. Na základe týchto parametrov môže byť stanovená diagnóza a rozpoznaná porucha srdcového rytmu (arytmia), porucha prevodu elektrických vzruchov, ischemická choroba srdca a iné patologické zmeny v myokarde.
 
-
-\begin{figure}[!ht]
-\begin{center}
-\includegraphics[scale=1]{holter}
-\includegraphics[scale=0.4]{portable-ecg}
-\caption{Príprava pacienta na 24-48 hodinové monitorovanie a Holterov monitor}
-\end{center}
-\end{figure}
 
 \newpage
 
@@ -311,11 +311,13 @@ Drift alebo kolísanie nulovej línie opisuje skupinu elektrochemických a mecha
 \end{figure}
 
 \newpage
-\section{Návrh a konštrukcia hardvéru}
+\section{Metodika práce}
+\subsection*{Návrh a konštrukcia hardvéru}
 Proces návrhu hardvérových komponentov som si rozdelil do niekoľkých fáz kvôli systematickosti. Takýto spôsob práce mi umožnil priebežné testovanie a odhaľovanie možných chýb počas vývoja. Od začiatku až po finálny dizajn som prešiel tromi iteráciami projektu. 
 
 Na návrh elektroniky a dizajn plošných spojov som používal grafický počítačový editor Eagle (verzia 9.1.3).
 
+\subsection{Zosilňovací obvod na vývojovej doske}
 Prvý prototyp obvodu bol vyrobený podľa jednoduchej schémy. Pozostávala iba z jedného operačného zosilňovača a zopár rezistorov. Z bezpečnostných dôvodov bola namiesto laboratórneho zdroja použitá 9V batéria na napájanie obvodu. 
 
 Operačný zosilňovač LM741 slúži na zosilnenie nízkonapäťového vstupu z elektród priložených na povrch tela. Je zapojený v diferenčnej konfigurácií, jeho invertujúci a neinvertujúci vstup predstavujú rozdielne napätia. Výstup je teda funkciou napäťovej diferencie medzi dvoma hrudnými elektródami. Faktor zisku je približne 50 podľa pomeru R5:R4. Z dôvodu, že zosilňovač funguje optimálne pre stredové hodnoty (medzi maximom a minimom), je nutné jeho vstupy dostať do použiteľného pásma. Na tento účel slúži napäťový delič R1-R2.
@@ -327,18 +329,88 @@ Hlavnou problematikou tohto návrhu bola všeobecná nespoľahlivosť a výskyt 
 
 \begin{figure}[!ht]
 \begin{center}
-\includegraphics[scale=1]{schematic}
+\includegraphics[scale=.9]{schematic}
 \caption{Schéma zosilňovacieho obvodu}
 \end{center}
 \end{figure}
 
-Na minimalizáciu rušivých faktorov sa môže použiť pasívny RC dolnopriepustný filter.
+\newpage
+\subsection{Spájkovaný obvod}
+Ďalším krokom bolo navrhnúť plošný spoj v Eagli podľa vyššej uvedenej schémy zosilňovacieho obvodu. Na základe počítačového návrhu bol zhotovený druhý prototyp na spájkovateľnej vývojovej doske. Elektrické súčiastky boli osadené a pospájané vodivými cestami z cínu. Doska mala celkovo 6 vývodov:
+\begin{itemize}
+	\item VCC (+5V) napájanie
+	\item GND - zem
+	\item OUT - analógový výstup
+	\item Hrudný zvod č. 1
+	\item Hrudný zvod č. 2
+	\item Pravá noha
+\end{itemize}
+Signál bol meraný a spracúvaný za pomoci Arduina UNO. Výstup zo zosilňovača bol spojený s analógovým pinom Arduina A0 (ADC). Vykresľovanie krivky EKG sa zrealizoval zabudovaným nástrojom programu Arduino IDE, ktorý sa nazýva Serial Plotter.
 
+Zobrazovaný signál bol do veľkej miery znečistený, preto bolo nutné použiť softvérový filter. Najjednoduchší filter vhodný na úlohu bol súčasťou oficiálnej knižnice Filters.h. \footnote{Dokumentácia a zdrojové kódy k spomínanej knižnici sú dostupné na webovom sídle \textit{https://playground.arduino.cc/Code/Filters}}
 
-Ďalším krokom je osamostatniť AD prevod signálu prostredníctvom mikrokontroléra. Aby sa to mohlo uskutočniť, zosilnený signál s negatívnou napäťovou zložkou sa musí premapovať  na rozsah kompatibilný s prevádzkovým rozsahom napätia mikrokontroléra.
+Nasledovný kód je implementáciou dolnopripustného filtra RC, ktorý slúži na vyhladenie signálu. Filter je nastavený na frekvenciu 50 Hz. Obsahuje deklaráciu premenných a inicializáciu triedy FilterOnePole.
+
+\begin{lstlisting}
+float filterFrequency = 5.0; 
+
+FilterOnePole lowpassFilter(LOWPASS, filterFrequency);
+
+while(true) {
+  lowpassFilter.input(analogRead(INPUT_PIN));
+}
+\end{lstlisting}
+
+Filter funguje na báze nekonečnej impulznej odozvy (IIR). Hlavnou výhodou je, že riešenie kladie veľmi nízke nároky na pamäť a výpočtovú kapacitu. Veľké pozitívum znamená taktiež jednoduchosť implementácie do projektu. Onedlho sa však prejavili seriózne problémy spôsobené vlastnosťami spomínaného filtra. Po úvodnom zachytení impulzov amplitúda postupne klesala, až kým nedosiahla nulu. Takéto správanie je nepriaznivým vedľajším účinkom IIR filtrov. 
+
+\newpage
+\subsection{Finálny obvod a rozširovacie moduly}
+Výsledný produkt zahŕňa niekoľko dôležitých komponentov. Ústrednú časť štruktúry zariadenia tvorí osobitne navrhnutý a na mieru vyrobený plošný spoj. Táto doska priamo spája analógovú časť aplikácie dovedna s digitálnym signálovým procesorom. Ďalej je doplnená o dva rozširovacie moduly a batérie.
+
+\subsubsection{Mikroprocesor}
+Mikroprocesor je centrálnym prvkom zariadenia. Zodpovedá za digitalizáciu a spracúvanie príchodzieho signálu, riadenie a koordináciu jednotlivých elektrických článkov v rámci aplikácie a odovzdávaie informácii počítaču.
+
+Pri výbere mikroprocesora sa prihliadalo na výkon, úspornosť, počet vývodov a na veľkosť dostupnej programovej pamäte. Nakoniec sa uprednostnil 8-bitový mikroradič Atmega328P z rodiny megaAVR od firmy Atmel. Vyhovel všetkým požiadavkam projektu, je vhodný na úlohu DSP a disponuje kvalitnou dokumentáciou i komunitnou podporou zo strany vývojárov. 
+Podrobnosti o mikroprocesore sú opísané v tabuľke nižšie.\footnote{Informácie boli čerpané zo stránky výrobcu \textit{www.microchip.com/wwwproducts/en/ATmega328p}}
+
+\begin{table}[htb]
+\begin{tabular}{ll}
+\textbf{Parameter}              & \textbf{Hodnota}     \\
+Typ programovej pamäte          & Flash                \\
+Veľkosť programovej pamäte (KB) & 32                   \\
+Max. rýchlosť CPU (MIPS)        & 20                   \\
+Komunikačné periférie           & 1-UART, 2-SPI, 1-I2C \\
+Tepelná tolerancia (C)          & -40 do 85            \\
+Napájacie napätie (V)           & 1,8 do 5,5           \\
+Počet vývodov                   & 32                  
+\end{tabular}
+\end{table}
+
+\subsubsection{FT232RL programátor s Mini USB}
+Adaptér USB–serial zabezpečuje programovanie čipov a komunikáciu s nimi. Komunikácia prebieha cez UART, tj. cez Rx a Tx piny. Úspešné nahratie programu má jednu podmienku: na čipe sa musí nachádzať zavádzač. Modul je kompatibilný s napätiami 3.3V a taktiež 5V, ladenie sa umožňuje pomocou prepínača. Zapojenie musí byť doplnené o kondenzátor (\SI{0,1}{\micro\F}) a o pull up rezistor na vývode DTR, aby resetovanie mohlo správne prebehnúť.
+
+\begin{table}[htb]
+\begin{tabular}{ll}
+\textbf{FT232RL}  	& \textbf{Atmega328}   \\
+DTR          		& RESET                \\
+TXD			 		& RX                   \\
+RXD					& TX				   \\
+5V					& VCC				   \\
+CTS (clear to send) & patrí do štandardu FT232, nie je nutné ho použiť \\
+GND					& GND
+\end{tabular}
+\end{table}
 
 
 \newpage
+\subsubsection{Slot pre Micro SD kartu}
+
+
+\newpage
+Na minimalizáciu rušivých faktorov sa môže použiť pasívny RC dolnopriepustný filter.
+
+Ďalším krokom je osamostatniť AD prevod signálu prostredníctvom mikrokontroléra. Aby sa to mohlo uskutočniť, zosilnený signál s negatívnou napäťovou zložkou sa musí premapovať  na rozsah kompatibilný s prevádzkovým rozsahom napätia mikrokontroléra.
+
 Srdcovú činnosť umožňujú malé elektrické impulzy, ktoré sa šíria po prevodovom systéme a pracovnom myokarde. Menia elektrické potenciály na rôznych bodoch pokožky približne o tisícinu voltu (1 mV). Táto elektrická aktivita v sebe skrýva neuveriteľné množstvo informácií, prostredníctvom ktorých môžeme získať náhľad do fungovania tohto zázračného orgánu.
 
 K zachyteniu a odhaleniu signálu sa žiadne špeciálne vybavenie nevyžaduje. Odmerať ho dokážeme aj pomerne jednoduchým prístrojom.
@@ -348,7 +420,7 @@ Výzvou pokusu je spoľahlivo zosilniť a rozoznať pomerne slabý, milivoltový
 \newpage
 \section*{Zoznam použitej literatúry}
 \begin{itemize}
-\item 1991. Ľudské telo - Komplexný sprievodca po ľudskom tele a jeho funkciách. Bratislava. GEMINI, spol. s.r.o. ISBN 80-85265-12-5.
+\item GEMINI, spol. s.r.o. 1991. Ľudské telo - Komplexný sprievodca po ľudskom tele a jeho funkciách. Bratislava. ISBN 80-85265-12-5.
 \item IAIZZO, Paul A. 2005. Handbook of Cardiac Anatomy, Physiology, and Devices. New Jersey. Human Press, Inc. ISBN 1-59259-835-8.
 \item HANÁČEK, Ján, PLEVKOVÁ, Jana. 2009. Elektrokardiografia - Základné mechanizmy porúch elektrickej funkcie srdca a ich manifestácia na Ekg krivke. Martin. Ústav patologickej fyziológie JLF UK.
 \item MALMIVUO, Jaakko, PLONSEY, Robert. 1995. Bioelectromagnetism - Principles and Applications of Bioelectric and Biomagnetic Fields. Oxford. Oxford University Press.
@@ -359,9 +431,12 @@ Výzvou pokusu je spoľahlivo zosilniť a rozoznať pomerne slabý, milivoltový
 \item www.wikiskripta.eu/w/Rušení\_biosignálů\_a\_artefakty
 \item www.swharden.com/wp/2016-08-08-diy-ecg-with-1-op-amp/
 \item www.arduino.cc/en/Tutorial/ArduinoToBreadboard
+\item www.microchip.com/wwwproducts/en/ATmega328p
+\item techfun.sk/produkt/ft232rl-programator-s-mini-usb-5v-3-3v/
 \item images-na.ssl-images-amazon.com/images/I/51jDS6PVO6L.\_SX355\_.jpg
 \item cardiocenter.az/uploads/posts/2017-06/1498069942\_4-holter.jpg
 \item github.com/tttapa/Filters
+
 \end{itemize}
 
 
