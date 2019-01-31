@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  21 JAN 2019 23:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  31 JAN 2019 01:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1048,190 +1048,260 @@ Overfull \hbox (0.94525pt too wide) in paragraph at lines 115--116
 \openout3 = `kop-dokumentacia.toc'.
 
  [4]
-Overfull \hbox (0.47295pt too wide) in paragraph at lines 122--123
+Overfull \hbox (1.2137pt too wide) in paragraph at lines 122--123
+\OT1/cmr/m/n/10 pr^^S^^Prody a biol^^Sogie. Dnes zn^^Sama podoba Homo sapi-ens 
+je v^^Sysledkom prirodzen^^Seho
+ []
+
+
+Overfull \hbox (4.473pt too wide) in paragraph at lines 124--125
+\OT1/cmr/m/n/10 grad^^Sacia ^^Tzivotn^^Seho prostre-dia maj^^Su z^^Saporny vply
+v na zdravotn^^Sy stav oby-vate[]lstva
+ []
+
+
+Overfull \hbox (11.46254pt too wide) in paragraph at lines 124--125
+\OT1/cmr/m/n/10 nia, ktor^^Se pa-tria medzi najp^^Sal^^Tcivej^^Tsie glob^^Salne
+ zdravotn^^S^^Pcke probl^^Semy. V rebr^^S^^P^^Tckoch
+ []
+
+[5]
+Overfull \hbox (0.47295pt too wide) in paragraph at lines 138--139
 \OT1/cmr/m/n/10 ^^Tze aj pomerne jednoduch^^Symi kom-po-nentmi sa daj^^Su vyrie
 ^^Tsi[]t kom-plexn^^Se probl^^Semy. 
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 140--143
+
+Overfull \hbox (6.6119pt too wide) in paragraph at lines 142--143
+\OT1/cmr/m/n/10 mal^^Sym nap^^?at^^S^^Pm sa zabr^^Sanilo v^^Syskytu ne^^Tcakan^
+^Sych a po-tenci^^Salne rizikov^^Sych situ^^Saci^^S^^P. 
+ []
+
+[6]
+Overfull \hbox (4.85255pt too wide) in paragraph at lines 152--153
+\OT1/cmr/m/n/10 vodovom syst^^Seme a pra-cov-nom myokarde. Me-nia elek-trick^^S
+e po-tenci^^Saly na r^oznych
+ []
+
+
+Overfull \hbox (4.7507pt too wide) in paragraph at lines 152--153
+\OT1/cmr/m/n/10 v sebe neu-verite[]ln^^Se mno^^Tzstvo in-form^^Saci^^S^^P, pros
+tredn^^S^^Pctvom ktor^^Sych z^^S^^Pskame n^^Sah[]lad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--143
+Underfull \hbox (badness 10000) in paragraph at lines 158--161
 
  []
 
-</home/andras/Documents/kop/img/48_img1_b.jpg, id=27, 376.40625pt x 277.035pt>
+</home/andras/Documents/kop/img/48_img1_b.jpg, id=31, 376.40625pt x 277.035pt>
 File: /home/andras/Documents/kop/img/48_img1_b.jpg Graphic file (type jpg)
 <use /home/andras/Documents/kop/img/48_img1_b.jpg>
 Package pdftex.def Info: /home/andras/Documents/kop/img/48_img1_b.jpg  used on 
-input line 146.
+input line 164.
 (pdftex.def)             Requested size: 263.48257pt x 193.92317pt.
-[6 </home/andras/Documents/kop/img/48_img1_b.jpg>]
-</home/andras/Documents/kop/img/action-potential-voltage.png, id=32, 489.83pt x
+[7 </home/andras/Documents/kop/img/48_img1_b.jpg>]
+</home/andras/Documents/kop/img/action-potential-voltage.png, id=35, 489.83pt x
  280.04625pt>
 File: /home/andras/Documents/kop/img/action-potential-voltage.png Graphic file 
 (type png)
 <use /home/andras/Documents/kop/img/action-potential-voltage.png>
 Package pdftex.def Info: /home/andras/Documents/kop/img/action-potential-voltag
-e.png  used on input line 172.
+e.png  used on input line 190.
 (pdftex.def)             Requested size: 244.9144pt x 140.02277pt.
- [7 </home/andras/Documents/kop/img/action-potential-voltage.png>]
-Overfull \hbox (3.88033pt too wide) in paragraph at lines 191--192
+ [8 </home/andras/Documents/kop/img/action-potential-voltage.png>]
+Overfull \hbox (3.88033pt too wide) in paragraph at lines 209--210
 \OT1/cmr/m/n/10 Uk^^Sa^^Tze spr^^Savanie srdca a obe-hov^^Seho syst^^Semu pri n
 ^^Samahovej ak-tivite. Na simul^^Saciu
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--199
+Underfull \hbox (badness 10000) in paragraph at lines 213--217
 
  []
 
 
-Overfull \hbox (7.66737pt too wide) in paragraph at lines 195--199
+Overfull \hbox (7.66737pt too wide) in paragraph at lines 213--217
 \OT1/cmr/m/n/10 Na z^^Saklade t^^Sychto parametrov m^o^^Tze by[]t stanoven^^Sa 
 di-agn^^Soza a rozpoz-nan^^Sa porucha
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 206--234
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--234
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--234
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--234
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--234
-
- []
-
 [9]
-Overfull \hbox (12.69528pt too wide) in paragraph at lines 246--247
+Underfull \hbox (badness 10000) in paragraph at lines 224--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--252
+
+ []
+
+[10]
+Overfull \hbox (12.69528pt too wide) in paragraph at lines 264--265
 \OT1/cmr/m/n/10 Tri kon^^Tcatinov^^Se elektr^^Sody (prav^^Sa ruka, []lav^^Sa ru
 ka, []lav^^Sa noha) vytv^^Saraj^^Su Einthovenov
  []
 
 
-Overfull \hbox (1.74147pt too wide) in paragraph at lines 246--247
+Overfull \hbox (1.74147pt too wide) in paragraph at lines 264--265
 \OT1/cmr/m/n/10 Ka^^Tzd^^Sy zvod po-zost^^Sava z dvoch elektr^^Sod, z pozit^^S^
 ^Pvneho a z negat^^S^^Pvneho. Pozit^^S^^Pvny
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--262
+Underfull \hbox (badness 10000) in paragraph at lines 277--280
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--267
+Underfull \hbox (badness 10000) in paragraph at lines 280--285
 
  []
 
-</home/andras/Documents/kop/img/ekg-zvody.png, id=44, 406.51875pt x 455.7025pt>
+</home/andras/Documents/kop/img/ekg-zvody.png, id=47, 406.51875pt x 455.7025pt>
 
 File: /home/andras/Documents/kop/img/ekg-zvody.png Graphic file (type png)
 <use /home/andras/Documents/kop/img/ekg-zvody.png>
 Package pdftex.def Info: /home/andras/Documents/kop/img/ekg-zvody.png  used on 
-input line 271.
+input line 289.
 (pdftex.def)             Requested size: 162.60461pt x 182.27776pt.
 
-Overfull \hbox (1.5839pt too wide) in paragraph at lines 279--280
+Overfull \hbox (1.5839pt too wide) in paragraph at lines 297--298
 \OT1/cmr/m/n/10 Po ^^Suspe^^Tsnom zmeran^^S^^P a zosil-nen^^S^^P sign^^Salu ^^T
 cel^^S^^Pme zlo^^Tzitej prek^^Sa^^Tzke v snahe zachyti[]t
  []
 
-[10 </home/andras/Documents/kop/img/ekg-zvody.png>] [11]
-</home/andras/Documents/kop/img/flowchart.png, id=54, 773.89125pt x 116.435pt>
+[11 </home/andras/Documents/kop/img/ekg-zvody.png>] [12]
+</home/andras/Documents/kop/img/flowchart.png, id=58, 773.89125pt x 116.435pt>
 File: /home/andras/Documents/kop/img/flowchart.png Graphic file (type png)
 <use /home/andras/Documents/kop/img/flowchart.png>
 Package pdftex.def Info: /home/andras/Documents/kop/img/flowchart.png  used on 
-input line 308.
+input line 326.
 (pdftex.def)             Requested size: 309.55101pt x 46.57317pt.
- [12 </home/andras/Documents/kop/img/flowchart.png>]
-Overfull \hbox (11.08409pt too wide) in paragraph at lines 318--319
+ [13 </home/andras/Documents/kop/img/flowchart.png>]
+Overfull \hbox (11.08409pt too wide) in paragraph at lines 336--337
 []\OT1/cmr/m/n/10 Na n^^Savrh elek-tron-iky a dizajn plo^^Tsn^^Sych spo-jov som
  pou^^Tz^^S^^Pval grafick^^Sy po^^Tc^^S^^Pta^^Tcov^^Sy
  []
 
 
-Overfull \hbox (3.7786pt too wide) in paragraph at lines 325--326
+Overfull \hbox (3.7786pt too wide) in paragraph at lines 343--344
 []\OT1/cmr/m/n/10 Anal^^Sogov^^Sy v^^Systup bol pripo-jen^^Sy do 3,5 mm mikrof^
 ^Sonov^^Seho rozhra-nia zvukovej
  []
 
-</home/andras/Documents/kop/img/schematic.png, id=60, 207.174pt x 182.1204pt>
+</home/andras/Documents/kop/img/schematic.png, id=63, 207.174pt x 182.1204pt>
 File: /home/andras/Documents/kop/img/schematic.png Graphic file (type png)
 <use /home/andras/Documents/kop/img/schematic.png>
 Package pdftex.def Info: /home/andras/Documents/kop/img/schematic.png  used on 
-input line 332.
+input line 350.
 (pdftex.def)             Requested size: 186.45486pt x 163.90683pt.
-[13 </home/andras/Documents/kop/img/schematic.png>] [14]
-Overfull \hbox (23.8098pt too wide) in paragraph at lines 374--374
+[14 </home/andras/Documents/kop/img/schematic.png>] [15]
+Overfull \hbox (23.8098pt too wide) in paragraph at lines 392--392
 [][]\OT1/cmr/m/n/8 Inform^^Sacie boli ^^Tcerpan^^Se zo str^^Sanky v^^Syrobcu \O
 T1/cmr/m/it/8 www.microchip.com/wwwproducts/en/ATmega328p| 
  []
 
 
-Overfull \hbox (0.44522pt too wide) in paragraph at lines 373--375
+Overfull \hbox (0.44522pt too wide) in paragraph at lines 391--393
 []\OT1/cmr/m/n/10 Pri v^^Sybere mikro-pro-ce-sora sa prih-li-adalo na v^^Sykon,
  ^^Suspornos[]t, po^^Tcet v^^Syvodov
  []
 
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 390.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+Overfull \hbox (9.91733pt too wide) in paragraph at lines 414--415
+[]\OT1/cmr/m/n/10 Po d^okladnej kon-t-role v^^Tsetk^^Sych nas-taven^^S^^P sa m^
+o^^Tze spusti[]t nahr^^Savanie zav^^Sadza^^Tca
+ []
+
+[16]
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 419.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [15] [16]
-Overfull \hbox (5.41629pt too wide) in paragraph at lines 412--413
-[][]\OT1/cmr/m/n/10 Dal^^Ts^^S^^Pm krokom je os-amostatni[]t AD pre-vod sign^^S
-alu prostredn^^S^^Pctvom mikrokon-
+)
+Overfull \hbox (5.27863pt too wide) in paragraph at lines 437--442
+\OT1/cmr/m/n/10 Hotov^^Sy digit^^Salny n^^Savrh skom-ple-ti-zo-van^^Seho plo^^T
+sn^^Seho spoja bol odoslan^^Sy do v^^Syroby
  []
 
 
-Overfull \hbox (4.85255pt too wide) in paragraph at lines 414--415
-\OT1/cmr/m/n/10 vodovom syst^^Seme a pra-cov-nom myokarde. Me-nia elek-trick^^S
-e po-tenci^^Saly na r^oznych
+Underfull \hbox (badness 10000) in paragraph at lines 437--442
+
+ []
+
+
+Overfull \hbox (22.27847pt too wide) in paragraph at lines 445--446
+\OT1/cmr/m/n/10 sveteln^^Se di^^Sody, elek-trolyt-ick^^Se kon-denz^^Satory) sa 
+nesmie zab^^Suda[]t na spr^^Savne smerovanie
+ []
+
+
+Overfull \hbox (11.50073pt too wide) in paragraph at lines 447--448
+[]\OT1/cmr/m/n/10 Naposledy boli prisp^^Sajkovan^^Se nap^^Sajacie a vs-tup-nov^
+^Systupn^^Se piny pre roz^^Tsirovacie
  []
 
 [17]
-Overfull \hbox (5.53781pt too wide) in paragraph at lines 425--426
+</home/andras/Documents/kop/img/assembly-2.png, id=81, 1041.8925pt x 402.50375p
+t>
+File: /home/andras/Documents/kop/img/assembly-2.png Graphic file (type png)
+<use /home/andras/Documents/kop/img/assembly-2.png>
+Package pdftex.def Info: /home/andras/Documents/kop/img/assembly-2.png  used on
+ input line 462.
+(pdftex.def)             Requested size: 312.57016pt x 120.75204pt.
+</home/andras/Documents/kop/img/assembly-1.png, id=82, 653.44125pt x 386.44376p
+t>
+File: /home/andras/Documents/kop/img/assembly-1.png Graphic file (type png)
+<use /home/andras/Documents/kop/img/assembly-1.png>
+Package pdftex.def Info: /home/andras/Documents/kop/img/assembly-1.png  used on
+ input line 463.
+(pdftex.def)             Requested size: 196.03387pt x 115.93402pt.
+ [18 </home/andras/Documents/kop/img/assembly-2.png> </home/andras/Documents/ko
+p/img/assembly-1.png>]
+Overfull \hbox (5.53781pt too wide) in paragraph at lines 474--475
 []\OT1/cmr/m/n/10 HAN[]A[]CEK, J^^San, PLEVKOV[]A, Jana. 2009. Elek-trokar-dio-
 grafia - Z^^Sakladn^^Se
  []
 
 
-Overfull \hbox (26.59338pt too wide) in paragraph at lines 427--428
+Overfull \hbox (26.59338pt too wide) in paragraph at lines 476--477
 []\OT1/cmr/m/n/10 B[]ORIKOV[]A, Ivana. 2016. Funk^^Tcn^^Se vy^^Tsetrenie res-pi
 ra^^Tcn^^Seho, kar-dio-vaskul^^Sarneho
  []
 
 
-Overfull \hbox (31.71368pt too wide) in paragraph at lines 427--428
+Overfull \hbox (31.71368pt too wide) in paragraph at lines 476--477
 \OT1/cmr/m/n/10 a mo^^Tcov^^Seho syst^^Semu. Port^^Sal Jesse-niovej lek^^Sarske
 j fakulty Uni-verz-ity Komensk^^Seho.
  []
 
-[18] (./kop-dokumentacia.aux) ) 
+[19] (./kop-dokumentacia.aux) ) 
 Here is how much of TeX's memory you used:
- 15696 strings out of 492982
- 307921 string characters out of 6134895
+ 15707 strings out of 492982
+ 308355 string characters out of 6134895
  342886 words of memory out of 5000000
- 19113 multiletter control sequences out of 15000+600000
+ 19122 multiletter control sequences out of 15000+600000
  539719 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,43p,10396b,983s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1248,10 +1318,10 @@ public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mti8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on kop-dokumentacia.pdf (19 pages, 256700 bytes).
+Output written on kop-dokumentacia.pdf (20 pages, 334688 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 135 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
