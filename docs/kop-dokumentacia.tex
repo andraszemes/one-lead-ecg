@@ -1,4 +1,6 @@
-\documentclass[titlepage]{article}
+\documentclass[titlepage,12pt]{article}
+\usepackage[left=3cm, right=2.5cm, top=2.5cm]{geometry}
+\usepackage{mathptmx}
 \usepackage[utf8]{inputenc}
 \usepackage{fancyhdr}
 \usepackage{titling}
@@ -9,12 +11,14 @@
 \usepackage{siunitx}
 \usepackage[bottom]{footmisc}
 \renewcommand{\dateseparator}{.}
-\renewcommand{\figurename}{Obr.}
+\renewcommand{\figurename}{Obrázok}
+\renewcommand{\tablename}{Tabuľka}
 \renewcommand{\contentsname}{Obsah}
-\graphicspath{ {/home/andras/Documents/kop/img/} }
+\graphicspath{ {/home/andras/Documents/kop/docs/img/} }
 \title{\textbf{Jednozvodový elektrokardiograf} \\
 \large Praktická časť odbornej zložky maturitnej skúšky}
 \date{\empty}
+\setcounter{section}{-1}
 
 \begin{document}
 
@@ -29,7 +33,7 @@
 		\fancyfoot[R] {
 			\begin{flushright}
 				riešiteľ: \textbf{András Zemes} \\
-				ročník štúdia: \textbf{štvrtý}
+				ročník štúdia: \textbf{štvrtý} 
 			\end{flushright}
 		}
 		\fancyfoot[C] {\empty}		
@@ -37,56 +41,41 @@
 	\maketitle
 \egroup
 
-
+\setcounter{page}{2}
 \section*{Praktická časť odbornej zložky maturitnej skúšky}
 a \underline{Zadanie úlohy pre komplexnú maturitnú skúšku:} 
 \newline
 
 \begin{description}
 	\item [Meno a priezvisko:]
-		\tabto{4cm} András Zemes
+		\tabto{5cm} András Zemes
 		
     \item [Trieda:]	
-    	\tabto{4cm} 4. IT
+    	\tabto{5cm} 4. IT
     	
 	\item [Konzultant:]		 	  
-		\tabto{4cm} Mgr. Peter Hudec
+		\tabto{5cm} Mgr. Peter Hudec
 		
 	\item [Školský rok:] 
-		\tabto{4cm} 2018/2019
+		\tabto{5cm} 2018/2019
 		
 	\item [Odbor:]		  
-		\tabto{4cm} Informačné a sieťové technológie
+		\tabto{5cm} Informačné a sieťové technológie
 		
 	\item [Názov témy:]			  
-		\tabto{4cm} Jednozvodový elektrokardiograf 
+		\tabto{5cm} Jednozvodový elektrokardiograf 
 		
 	\item [Úloha:]				  
-		\tabto{4cm} Zhotoviť prístroj, \emph{elektrokardiograf}, na snímanie 
-		\tabto{4cm} a zachytenie elektrických potenciálov srdca.
-		
-	\item [Špecifikácia úlohy:] \hfill
-	
-    \begin{enumerate}
-		\item Naštudovanie a spracovanie potrebnej teórie
-		\begin{itemize}
-			\item Elektrický potenciál srdca
-        	\item Prehľad prístrojov EKG
-        	\item Signál a jeho spracovanie
-		\end{itemize}
-    	\item Vytvorenie a konštrukcia prístroja na meranie EKG
-    	\item Vytvorenie elektronickej časti, práca s mikrokontrolérom
-    	\item Vytvorenie PC aplikácie na grafické zobrazenie spracovaných údajov
-    	\item Webové rozhranie ku spracovaným dátam
-	\end{enumerate}
+		\tabto{5cm} Zhotoviť prístroj, \emph{elektrokardiograf}, na snímanie 
+		\tabto{5cm} a zachytenie elektrických potenciálov srdca.
 	
 	\item [Praktický charakter úlohy:]
-		Návrh plošného spoja, programovanie 
-		\tabto{4cm} mikrokontroléra, vytvorenie grafickej aplikácie.
+		\tabto{5cm} Návrh plošného spoja, programovanie 
+		\tabto{5cm} mikrokontroléra, vytvorenie grafickej aplikácie.
 		
 \end{description}
 	
-\vspace{10mm}
+\vspace{20mm}
 \hrulefill
 \\\hspace*{0mm}\phantom{v.r.: }András Zemes, riešiteľ
 
@@ -100,6 +89,24 @@ a \underline{Zadanie úlohy pre komplexnú maturitnú skúšku:}
 
 \vspace{10mm}
 V Nových Zámkoch dňa \today
+
+\newpage
+
+\subsection*{Čiastkové úlohy}
+\begin{enumerate}
+	\item Naštudovanie a spracovanie potrebnej teórie
+	\begin{itemize}
+		\item Elektrický potenciál srdca
+       	\item Prehľad prístrojov EKG
+       	\item Signál a jeho spracovanie
+	\end{itemize}
+    \item Vytvorenie a konštrukcia prístroja na meranie EKG
+    \item Vytvorenie elektronickej časti, práca s mikrokontrolérom
+    \item Vytvorenie PC aplikácie na grafické zobrazenie spracovaných údajov
+    \item Webové rozhranie ku spracovaným dátam
+\end{enumerate}
+
+\newpage
 
 
 \section*{Čestné vyhlásenie}
@@ -144,7 +151,10 @@ Pri návrhu plošného spoja sa muselo prihliadať i na bezpečnosť pri použit
 Pomocou jednozvodového EKG vieme určiť pulz, srdcový rytmus, ba aj odhaliť prítomnosť srdových arytmií a fibrilácie predsiení. Projekt môže taktiež slúžiť ako pomôcka pri výučbe elektroniky, programovania či informatiky. Znázorňuje fungovanie signálových filtrov, operačných zosilňovačov, mikrokontrolérov a grafických počítačových aplikácií.
 
 \newpage
-\section{Teória elektrokardiografie}
+\section{Problematika a prehľad literatúry}
+Dovoľujem si vás oboznámiť s teoretickými východiskami a informovať o základných poznatkoch, ktoré sa týkajú nastolenej problematiky. Princípy elektrokardiografie tvoria kmeň tejto práce a sú jej neoddeliteľnou súčasťou.
+
+
 \subsection{Elektrofyziológia srdca}
 
 Základom vnútorného fungovania srdca je jeho elektrická aktivita. Srdce je jedinečný orgán z hľadiska, že jeho elektrická činnosť nie je nervovo založená. Vykonávajú ju špecializované vodivé svalové bunky. Zväzky takýchto buniek podmieňujú čerpaciu schopnosť srdca.
@@ -323,7 +333,7 @@ Drift alebo kolísanie nulovej línie opisuje skupinu elektrochemických a mecha
 
 \begin{figure}[!ht]
 \begin{center}
-\includegraphics[scale=0.4]{flowchart}
+\includegraphics[scale=0.7]{flowchart}
 \caption{Bloková schéma spracovania EKG}
 \end{center}
 \end{figure}
@@ -402,6 +412,7 @@ Tepelná tolerancia (C)          & -40 do 85            \\
 Napájacie napätie (V)           & 1,8 do 5,5           \\
 Počet vývodov                   & 28                  
 \end{tabular}
+\caption{Parametre mikroprocesora}
 \end{table}
 
 \subsubsection*{Napaľovanie zavádzača}
@@ -428,6 +439,7 @@ RXD					& TX				   \\
 CTS (clear to send) & patrí do štandardu FT232, nie je nutné ho použiť \\
 GND					& GND
 \end{tabular}
+\caption{Definície pinov}
 \end{table}
 
 \subsubsection*{Slot pre Micro SD kartu}
@@ -452,7 +464,7 @@ Posledným krokom v práci s hradvérom bolo umiestniť všetký komponenty do �
 
 Napájacie puzdro na tri AA batérie bolo uložené pozdĺžne v zadnej časti krytu. K nemu bol pripevnený zvisle polohovaný USB—Serial modul. Na zadnej stene bol taktiež vytvorený otvor na rozhranie Micro USB.
 
-Okraje hlavného plošného spoja boli upravené a tvarované tak, aby sa doska mohla prichytiť o jeden z podporných stĺpikov. Následne bola vyvŕtaná diera pre svetelnú diódu a vytvorený obdĺžnikový otvor pre vypínač. Na prednom paneli boli vyvŕtané diery s väčším priemerom na vsadenie troch laboratórnych konektorov.
+Okraje hlavného plošného spoja boli upravené a tvarované tak, aby sa doska mohla prichytiť o jeden z podporných stĺpikov. Následne bola vyvŕtaná diera pre svetelnú indikačnú diódu a vytvorený obdĺžnikový otvor pre vypínač. Na prednom paneli boli vyvŕtané diery s väčším priemerom na vsadenie troch laboratórnych konektorov.
 
 Nakoniec boli všetky komponenty upevnené obojstrannou lepiacou páskou. Rozširovacie moduly, vypínač a konektory boli zapojené do riadiacej dosky či už priamo alebo prepojovacími káblami. Prepojovacie káble museli byť vyrobené na mieru kvôli nevšedným požiadavkám na dĺžku a počet vodičov a tvar prípojky.
 
@@ -464,6 +476,39 @@ Nakoniec boli všetky komponenty upevnené obojstrannou lepiacou páskou. Rozši
 \caption{Nárys a pôdorys škatuľky s rozmermi}
 \end{center}
 \end{figure}
+
+\newpage
+\subsection{Tvorba softvéru}
+Softvérová zložka tvorí druhú navýznamnejšiu časť tejto práce. Z hľadiska spracúvania, zobrazovania, vyhodnocovania a eventuálnej použiteľnosti signálu zohrávajú programové prostriedky dôležitú a nenahraditeľnú úlohu. Vývoj softvéru predstavoval komplexný proces, ktorý zahŕňal zúžitkovanie možností rôznych programovacích jazykov a prostredí.
+
+Každý stupeň práce so signálom má za úlohu riešiť samostatný problém a zároveň komunikovať s ostatnými jednotkami. Aplikačná vrstva projektu sa delí na tri hlavné časti:
+\begin{enumerate}
+	\item Hardvérové programovanie
+	\item Grafické používateľské rozhranie (GUI)
+	\item Webová aplikácia
+\end{enumerate}
+
+\subsubsection{Hardvérové programovanie}
+Prvá fáza sa zaoberá primárnym filtrovaním na úrovni mikroprocesora. Pozostáva z potláčania sieťovového brumu, kolísania nulovej línie a iných artefaktov (viď. podkapitolu \textit{2.5 Signál a jeho spracovanie}). Na tento účel boli použité zdrojové kódy z voľne dostupného internetového repozitára \footnote{Repozitár sa nachádza na adrese https://github.com/tttapa/Filters a vlastníkom je Pieter Pas.}, keďže návrh filtrov nespadá do sféry pôsobnosti tejto odbornej práce. V kóde sú implementované knižnice filtrov FIR a IIR. Obsahuje taktiež matematicky odvodené koeficienty, ktoré určujú charakteristiky filtrov zvlášť prispôsobené k elektrokardiografii. Softvér bol doplnený o algoritmus, ktorý popri filtrovaní súčasne riadi vysokorýchlostné zaznamenávanie údajov na pripojenú pamäťovú kartu MicroSD.
+
+\newpage
+\section{Výsledky a diskusia}
+nezavisly hardvér
+pocitacovy program
+ekg grafy
+web stranka
+efektivna kombinacia filtrov a elimnicia artefaktov
+porovnanie signalov pred a po filtracii
+blokovy diagram
+uspesne zvladnutie bezpecnosti
+nelekarske pouzitie ekg, navrh pouzitia v domacom/skolskom prostredi (arytmie, sledovanie pulzu, naucne ucely)
+zdielanie vysledkov s lekarom cez web
+
+
+
+
+\newpage
+\section{Závery práce}
 
 
 \newpage
