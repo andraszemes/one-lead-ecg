@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  7 FEB 2019 22:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  14 FEB 2019 10:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1134,14 +1134,46 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
 \c__siunitx_mathtt_int=\count306
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(95.39737pt, 557.30884pt, 142.26378pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=557.30884pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
 
 
 LaTeX Warning: No \author given.
@@ -1154,45 +1186,49 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
+
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--48
+Underfull \hbox (badness 10000) in paragraph at lines 50--52
 
  []
 
-[2]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 99.
+[2
+
+]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 103.
+
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 99.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 103.
  [3] [4] [5]
 (./kop-dokumentacia.toc)
 \tf@toc=\write3
 \openout3 = `kop-dokumentacia.toc'.
 
  [6]
-Overfull \hbox (5.5959pt too wide) in paragraph at lines 139--140
+Overfull \hbox (5.5959pt too wide) in paragraph at lines 143--144
 \OT1/ptm/m/n/12 chorob[]am a []zi[]t zdrav[]y, plno-hod-notn[]y []zivot, mus[]^
 ^Pme pozna[]t mo[]zn[]e n[]asledky rizikov[]eho spr[]avania.
  []
 
 [7] [8]
-Overfull \hbox (6.42355pt too wide) in paragraph at lines 164--165
+Overfull \hbox (6.42355pt too wide) in paragraph at lines 168--169
 \OT1/ptm/m/n/12 pravej pred-siene. Ud[]ava frekven-ciu kon-trakci[]^^P myokardu
  (srd-cov[]eho sval-stva), ktor[]a je nomin[]alne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--171
+Underfull \hbox (badness 10000) in paragraph at lines 172--175
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--171
+Underfull \hbox (badness 10000) in paragraph at lines 172--175
 
  []
 
@@ -1202,7 +1238,7 @@ File: /home/andras/Documents/kop/docs/img/48_img1_b.jpg Graphic file (type jpg)
 
 <use /home/andras/Documents/kop/docs/img/48_img1_b.jpg>
 Package pdftex.def Info: /home/andras/Documents/kop/docs/img/48_img1_b.jpg  use
-d on input line 174.
+d on input line 178.
 (pdftex.def)             Requested size: 263.48257pt x 193.92317pt.
 [9 </home/andras/Documents/kop/docs/img/48_img1_b.jpg>]
 </home/andras/Documents/kop/docs/img/action-potential-voltage.png, id=36, 489.8
@@ -1211,56 +1247,56 @@ File: /home/andras/Documents/kop/docs/img/action-potential-voltage.png Graphic
 file (type png)
 <use /home/andras/Documents/kop/docs/img/action-potential-voltage.png>
 Package pdftex.def Info: /home/andras/Documents/kop/docs/img/action-potential-v
-oltage.png  used on input line 200.
+oltage.png  used on input line 204.
 (pdftex.def)             Requested size: 244.9144pt x 140.02277pt.
  [10 </home/andras/Documents/kop/docs/img/action-potential-voltage.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 223--227
+Underfull \hbox (badness 10000) in paragraph at lines 227--231
 
  []
 
 
-Overfull \hbox (13.87535pt too wide) in paragraph at lines 223--227
+Overfull \hbox (13.87535pt too wide) in paragraph at lines 227--231
 \OT1/ptm/m/n/12 trick[]a os srdca, pre-vodov[]e []casy a mor-fol[]ogia seg-men-
 tov EKG krivky. Na z[]aklade t[]ychto parametrov
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 234--262
+Underfull \hbox (badness 10000) in paragraph at lines 238--266
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--262
+Underfull \hbox (badness 10000) in paragraph at lines 238--266
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--262
+Underfull \hbox (badness 10000) in paragraph at lines 238--266
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--262
+Underfull \hbox (badness 10000) in paragraph at lines 238--266
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--262
+Underfull \hbox (badness 10000) in paragraph at lines 238--266
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 287--290
+Underfull \hbox (badness 10000) in paragraph at lines 291--294
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--295
+Underfull \hbox (badness 10000) in paragraph at lines 294--299
 
  []
 
 
-Overfull \hbox (1.40848pt too wide) in paragraph at lines 290--295
+Overfull \hbox (1.40848pt too wide) in paragraph at lines 294--299
 \OT1/ptm/m/n/12 Einthoven defi-no-val rozdiely po-tenci[]alov medzi troma p[]ar
 mi horeuve-den[]ych bodov ako z[]akladn[]e
  []
@@ -1271,147 +1307,188 @@ File: /home/andras/Documents/kop/docs/img/ekg-zvody.png Graphic file (type png)
 
 <use /home/andras/Documents/kop/docs/img/ekg-zvody.png>
 Package pdftex.def Info: /home/andras/Documents/kop/docs/img/ekg-zvody.png  use
-d on input line 299.
+d on input line 303.
 (pdftex.def)             Requested size: 162.60461pt x 182.27776pt.
 [13 </home/andras/Documents/kop/docs/img/ekg-zvody.png>] [14]
-</home/andras/Documents/kop/docs/img/flowchart.png, id=59, 603.25375pt x 249.93
-375pt>
-File: /home/andras/Documents/kop/docs/img/flowchart.png Graphic file (type png)
+Overfull \hbox (17.25781pt too wide) in paragraph at lines 335--336
+\OT1/ptm/m/n/12 matem-at-icky jednoduch[]sie op[]^^Psate[]ln[]ymi ako IIR fil-t
+re, preto[]ze s[]u v[]a[]c[]sinou re-al-i-zo-van[]e nerekurz[]^^Pvne
+ []
 
-<use /home/andras/Documents/kop/docs/img/flowchart.png>
-Package pdftex.def Info: /home/andras/Documents/kop/docs/img/flowchart.png  use
-d on input line 336.
-(pdftex.def)             Requested size: 422.27475pt x 174.95242pt.
- [15 </home/andras/Documents/kop/docs/img/flowchart.png>]
-Overfull \hbox (13.75243pt too wide) in paragraph at lines 351--352
+</home/andras/Documents/kop/docs/img/fir-blokova-schema.png, id=59, 931.48pt x 
+392.46625pt>
+File: /home/andras/Documents/kop/docs/img/fir-blokova-schema.png Graphic file (
+type png)
+<use /home/andras/Documents/kop/docs/img/fir-blokova-schema.png>
+Package pdftex.def Info: /home/andras/Documents/kop/docs/img/fir-blokova-schema
+.png  used on input line 342.
+(pdftex.def)             Requested size: 186.2927pt x 78.49185pt.
+</home/andras/Documents/kop/docs/img/iir-blokova-schema.png, id=60, 915.42pt x 
+580.1675pt>
+File: /home/andras/Documents/kop/docs/img/iir-blokova-schema.png Graphic file (
+type png)
+<use /home/andras/Documents/kop/docs/img/iir-blokova-schema.png>
+Package pdftex.def Info: /home/andras/Documents/kop/docs/img/iir-blokova-schema
+.png  used on input line 354.
+(pdftex.def)             Requested size: 183.08075pt x 116.03143pt.
+[15 </home/andras/Documents/kop/docs/img/fir-blokova-schema.png> </home/andras/
+Documents/kop/docs/img/iir-blokova-schema.png>]
+Overfull \hbox (13.75243pt too wide) in paragraph at lines 370--371
 []\OT1/ptm/m/n/12 Opera[]cn[]y zosil[]nova[]c LM741 sl[]u[]zi na zosil-ne-nie n
 []^^Pzkonap[]a[]tov[]eho vs-tupu z elektr[]od prilo[]zen[]ych
  []
 
 
-Overfull \hbox (6.43504pt too wide) in paragraph at lines 351--352
+Overfull \hbox (6.43504pt too wide) in paragraph at lines 370--371
 \OT1/ptm/m/n/12 hrudn[]ymi elektr[]odami. Fak-tor zisku je pri-bli[]zne 50 pod[
 ]la pomeru R5:R4. Z d[]ovodu, []ze zosil[]nova[]c
  []
 
 
-Overfull \hbox (7.33365pt too wide) in paragraph at lines 353--354
+Overfull \hbox (7.33365pt too wide) in paragraph at lines 372--373
 []\OT1/ptm/m/n/12 Anal[]ogov[]y v[]ystup bol pripo-jen[]y do 3,5 mm mikrof[]ono
 v[]eho rozhra-nia zvukovej karty po[]c[]^^Pta[]ca.
  []
 
-</home/andras/Documents/kop/docs/img/schematic.png, id=64, 207.174pt x 182.1204
+</home/andras/Documents/kop/docs/img/schematic.png, id=66, 207.174pt x 182.1204
 pt>
 File: /home/andras/Documents/kop/docs/img/schematic.png Graphic file (type png)
 
 <use /home/andras/Documents/kop/docs/img/schematic.png>
 Package pdftex.def Info: /home/andras/Documents/kop/docs/img/schematic.png  use
-d on input line 360.
+d on input line 379.
 (pdftex.def)             Requested size: 186.45486pt x 163.90683pt.
 [16 </home/andras/Documents/kop/docs/img/schematic.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 378.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 397.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 378.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 397.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 378.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 397.
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--378
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
 [][]\OT1/ptm/m/n/10 Dokument[]acia a zdro-jov[]e k[]ody k spom[]^^Pnanej kni[]z
 nici s[]u dos-tupn[]e na we-bovom s[]^^Pdle
  []
 
 [17]
-Overfull \hbox (4.83922pt too wide) in paragraph at lines 396--397
+Overfull \hbox (4.83922pt too wide) in paragraph at lines 415--416
 []\OT1/ptm/m/n/12 cas[]t ap-lik[]acie dovedna s digit[]alnym sign[]alov[]ym pro
 -ce-sorom. []Dalej je do-plnen[]a o dva roz[]sirovacie
  []
 
 
-Overfull \hbox (1.3948pt too wide) in paragraph at lines 423--424
+Overfull \hbox (1.3948pt too wide) in paragraph at lines 442--443
 \OT1/ptm/m/n/12 duinom pod[]la []specifickej sch[]emy za-po-je-nia. V nas-tave-
 ni-ach sa zvol[]^^P typ dosky ,,Ar-duino Duemi-
  []
 
 [18]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 430.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 449.
 
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Overfull \hbox (17.3321pt too wide) in paragraph at lines 449--454
+Overfull \hbox (17.3321pt too wide) in paragraph at lines 468--473
 \OT1/ptm/m/n/12 Hotov[]y digit[]alny n[]avrh skom-ple-ti-zo-van[]eho plo[]sn[]e
 ho spoja bol odoslan[]y do v[]yroby pro-fe-sion[]alnemu
  []
 
 
-Overfull \hbox (2.1399pt too wide) in paragraph at lines 449--454
+Overfull \hbox (2.1399pt too wide) in paragraph at lines 468--473
 \OT1/ptm/m/n/12 v[]yrobcovi. K ob-jedn[]avke bol prilo[]zen[]y s[]ubor \OT1/ptm
 /m/it/12 .brd \OT1/ptm/m/n/12 vy-ex-por-to-van[]y z pro-jektu Ea-gle (vi[]d. pr
 []^^Plohu).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--454
+Underfull \hbox (badness 10000) in paragraph at lines 468--473
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 463--463
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
 [][]\OT1/ptm/m/n/10 Technick[]y v[]ykres krytu so []specifik[]aciami a rozmermi
  sa nach[]adza na str[]anke dis-trib[]utora
  []
 
 
-Overfull \hbox (14.25569pt too wide) in paragraph at lines 463--464
+Overfull \hbox (14.25569pt too wide) in paragraph at lines 482--483
 \OT1/ptm/m/n/12 tento []u[]cel padla vo[]lba na uni-verz[]alny kryt HM-1553DGY[
 ] od Ham-m-mondu s rozmermi 89x147x24
  []
 
-</home/andras/Documents/kop/docs/img/assembly-2.png, id=79, 1041.8925pt x 402.5
+</home/andras/Documents/kop/docs/img/assembly-2.png, id=81, 1041.8925pt x 402.5
 0375pt>
 File: /home/andras/Documents/kop/docs/img/assembly-2.png Graphic file (type png
 )
 <use /home/andras/Documents/kop/docs/img/assembly-2.png>
 Package pdftex.def Info: /home/andras/Documents/kop/docs/img/assembly-2.png  us
-ed on input line 474.
+ed on input line 493.
 (pdftex.def)             Requested size: 312.57016pt x 120.75204pt.
-</home/andras/Documents/kop/docs/img/assembly-1.png, id=80, 653.44125pt x 386.4
+</home/andras/Documents/kop/docs/img/assembly-1.png, id=82, 653.44125pt x 386.4
 4376pt>
 File: /home/andras/Documents/kop/docs/img/assembly-1.png Graphic file (type png
 )
 <use /home/andras/Documents/kop/docs/img/assembly-1.png>
 Package pdftex.def Info: /home/andras/Documents/kop/docs/img/assembly-1.png  us
-ed on input line 475.
+ed on input line 494.
 (pdftex.def)             Requested size: 196.03387pt x 115.93402pt.
 [20 </home/andras/Documents/kop/docs/img/assembly-2.png> </home/andras/Document
-s/kop/docs/img/assembly-1.png>] [21] [22] [23]
-Overfull \hbox (18.32704pt too wide) in paragraph at lines 521--522
+s/kop/docs/img/assembly-1.png>]
+Overfull \hbox (2.77263pt too wide) in paragraph at lines 516--517
+[]\OT1/ptm/m/n/12 Processing 3 je vo[]lne dos-tupn[]a grafick[]a kni[]znica a v
+[]yvojov[]e prostredie (IDE), ktor[]e disponuje
+ []
+
+
+Overfull \hbox (2.04007pt too wide) in paragraph at lines 520--521
+[]\OT1/ptm/m/n/12 O samotn[]e vykres[]lovanie grafu sa star[]a nat[]^^Pvna funk
+-cia \OT1/ptm/b/n/12 draw()\OT1/ptm/m/n/12 , ktor[]a sa opako-vane vykon[]ava
+ []
+
+
+Overfull \hbox (13.26373pt too wide) in paragraph at lines 522--523
+\OT1/ptm/m/n/12 meran[]ych hodn[]ot prostredn[]^^Pctvom prep[]^^Pna[]ca ,,REC".
+ Po ukon[]cen[]^^P z[]aznamu - op[]atovn[]ym kliknut[]^^Pm
+ []
+
+[21] [22]
+</home/andras/Documents/kop/docs/img/flowchart.png, id=94, 603.25375pt x 249.93
+375pt>
+File: /home/andras/Documents/kop/docs/img/flowchart.png Graphic file (type png)
+
+<use /home/andras/Documents/kop/docs/img/flowchart.png>
+Package pdftex.def Info: /home/andras/Documents/kop/docs/img/flowchart.png  use
+d on input line 540.
+(pdftex.def)             Requested size: 422.27475pt x 174.95242pt.
+ [23 </home/andras/Documents/kop/docs/img/flowchart.png>] [24]
+Overfull \hbox (18.32704pt too wide) in paragraph at lines 558--559
 []\OT1/ptm/m/n/12 B[]ORIKOV[]A, Ivana. 2016. Funk[]cn[]e vy[]setrenie res-pira[
 ]cn[]eho, kar-dio-vaskul[]arneho a mo[]cov[]eho
  []
 
-[24] (./kop-dokumentacia.aux) ) 
+[25] [26] (./kop-dokumentacia.aux) ) 
 Here is how much of TeX's memory you used:
- 16362 strings out of 492982
- 317770 string characters out of 6134895
- 358822 words of memory out of 5000000
- 19733 multiletter control sequences out of 15000+600000
+ 16372 strings out of 492982
+ 318316 string characters out of 6134895
+ 359822 words of memory out of 5000000
+ 19741 multiletter control sequences out of 15000+600000
  581034 words of font info for 127 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,43p,10396b,985s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/b
-ase/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
-tmri8a.pfb>
-Output written on kop-dokumentacia.pdf (24 pages, 266237 bytes).
+ 41i,10n,43p,10396b,987s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dv
+ips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
+mes/utmri8a.pfb>
+Output written on kop-dokumentacia.pdf (26 pages, 430428 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
+ 134 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

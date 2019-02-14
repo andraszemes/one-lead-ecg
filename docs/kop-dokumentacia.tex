@@ -21,7 +21,7 @@
 \setcounter{section}{-1}
 
 \begin{document}
-
+\newgeometry{bottom=5cm} 
 \bgroup
 	\fancypagestyle{empty} {
 		\fancyhead[C] {Stredná priemyselná škola elektrotechnická S. A. Jedlika v Nových Zámkoch}
@@ -33,13 +33,17 @@
 		\fancyfoot[R] {
 			\begin{flushright}
 				riešiteľ: \textbf{András Zemes} \\
-				ročník štúdia: \textbf{štvrtý} 
+				ročník štúdia: \textbf{štvrtý} \\
+				\vtop{\vskip-.1cm \hrulefill}
+				konzultant: Mgr. Peter Hudec
 			\end{flushright}
 		}
 		\fancyfoot[C] {\empty}		
 	}
 	\maketitle
 \egroup
+
+\restoregeometry
 
 \setcounter{page}{2}
 \section*{Praktická časť odbornej zložky maturitnej skúšky}
@@ -107,8 +111,7 @@ V Nových Zámkoch dňa \today
 \end{enumerate}
 
 \newpage
-
-
+\vspace*{\fill}
 \section*{Čestné vyhlásenie}
 
 Ja, dolupodpísaný András Zemes, študent 4. IT triedy Strednej priemyselnej školy S. A. Jedlika v Nových Zámkoch, týmto vyhlasujem, že som túto prácu   vyhotovil sám, s použitím uvedenej literatúry a podľa rád môjho konzultanta. 
@@ -116,8 +119,9 @@ Ja, dolupodpísaný András Zemes, študent 4. IT triedy Strednej priemyselnej �
 \vspace{10mm}
 \hrulefill
 \\\hspace*{0mm}\phantom{v.r.: }András Zemes
-\newpage
 
+\newpage
+\vspace*{\fill}
 \section*{Poďakovanie}
 Touto cestou by som sa chcel poďakovať všetkým, ktorí mi akýmkoľvek spôsobom pomohli a povzbudzovali ma pri vypracovaní mojej komplexnej maturitnej práce. Predovšetkým však patrí moja vďaka konzultantovi, Mgr. Petrovi Hudecovi, za jeho všestrannú pomoc, za vedenie a cenné pripomienky pri záverečnom spracovaní práce.
 
@@ -126,13 +130,13 @@ Touto cestou by som sa chcel poďakovať všetkým, ktorí mi akýmkoľvek spôs
 
 \newpage
 \section{Úvod}
-Ľudské telo je zázračný živý organizmus, ktorý sa správa podľa zákonitostí prírody a biológie. Dnes známa podoba Homo sapiens je výsledkom prirodzeného evolučného výberu, ktorým prechádza už dlhé tisícročia. Vďaka nemu sú naše orgány vyspelé a odolné, dokonale slúžia prežitiu. Ich rola a presný spôsob fungovania však dlho zostávali záhadou pred lekármi a vedcami v minulosti. Revolučné objavy a výdobitky v medicíne viedli k podrobnému zmapovaniu a poznaniu ľudského tela, i keď mnoho fenoménov je doposiaľ nevysvetlených. Choroby a nemoci sa stali liečiteľnými a predĺžil sa predpokladaný vek dožitia.
+Ľudské telo je zázračný živý organizmus, ktorý sa správa podľa zákonitostí prírody a biológie. Dnes známa podoba Homo sapiens je výsledkom prirodzeného evolučného výberu, ktorým prechádza už milióny rokov. Vďaka nemu sú naše orgány vyspelé a odolné, dokonale slúžia prežitiu. Ich rola a presný spôsob fungovania však dlho zostávali záhadou pred lekármi a vedcami v minulosti. Revolučné objavy a výdobitky v medicíne viedli k podrobnému zmapovaniu a poznaniu ľudského tela, i keď mnoho fenoménov je doposiaľ nevysvetlených. Choroby a nemoci sa stali liečiteľnými a predĺžil sa predpokladaný vek dožitia.
 
-V modernej dobe sa výrazne zmenil štýl, akým žijeme. Jeho dôsledky nesú naše telá, ktoré neboli stavané na rušný, uponáhľaný spôsob života a na zvládanie každodenného stresu. Nesprávna životospráva, zlé návyky a degradácia životného prostredia majú záporny vplyv na zdravotný stav obyvateľstva a prispievajú k šíreniu civilizačných ochorení. Jedná sa o degeneratívne ochorenia, ktoré patria medzi najpálčivejšie globálne zdravotnícke problémy. V rebríčkoch najčastejších príčin smrti sa často vyskytujú na prvých miestach.
+V modernej dobe sa výrazne zmenil štýl, akým žijeme. Jeho dôsledky nesú naše telá, ktoré neboli stavané na rušný, uponáhľaný spôsob života a na zvládanie každodenného stresu. Nesprávna životospráva, zlé návyky a degradácia životného prostredia majú záporný vplyv na zdravotný stav obyvateľstva a prispievajú k šíreniu civilizačných ochorení. Jedná sa o degeneratívne ochorenia, ktoré patria medzi najpálčivejšie globálne zdravotnícke problémy. V rebríčkoch najčastejších príčin smrti sa často vyskytujú na prvých priačkach.
 
 Škodlivé zvyklosti ako nezdravé stravovanie, nadváha, nedostatok fyzickej aktivity, fajčenie a nadmerná konzumácia alkoholu sa odzrkadľujú aj na srdci a obehovej sústave. Tieto a mnoho ďalších faktorov zvyšujú riziko srdcovocievnych ochorení vrátane kôrnatenia tepien, infarktu myokardu, vysokého krvného tlaku, atď. Ľudia si veľakrát ani neuvedomujú, že sa u nich vyvíja takáto choroba alebo si to uvedomia neskoro.
 
-Riešenie môže poskytnúť bioinformatika a biomedicínske inžinierstvo. Sú to vedné disciplíny, ktoré sa zaoberajú zhromažďovaním a vyhodnocovaním biologických dát a konštrukciou klinických zariadení. Vo veľkej miere uľahčujú prácu lekárom vo včasnom rozpoznaní a liečbe zdravotných problémov. Klasickým príkladom biomedicínskeho prístroja je elektrokardiograf alebo v skratke EKG. 
+Riešenie môže poskytnúť bioinformatika a biomedicínske inžinierstvo. Sú to vedné disciplíny, ktoré sa zaoberajú zhromažďovaním a vyhodnocovaním biologických dát a konštrukciou klinických zariadení. Vo veľkej miere uľahčujú prácu lekárom vo včasnom rozpoznaní a liečbe zdravotných problémov. Klasickým príkladom biomedicínskeho prístroja je elektrokardiograf alebo skratkou EKG. 
 
 V roku 1903 Willem Einthoven zostrojil prvý funkčný elektrokardiograf. Použil strunový galvanometer na snímanie elektrických potenciálov z končatín pacienta. Jeho vynález sa stal základným kameňom elektrokardiografie, za ktorý neskôr získal Nobelovu cenu za fyziológiu alebo medicínu. Vďaka Einthovenovi lekári dostali prvýkrát v histórii možnosť nahliadnuť hlboko do srdca a odhaliť skryté defekty prevodového systému.
 
@@ -325,18 +329,33 @@ Drift alebo kolísanie nulovej línie opisuje skupinu elektrochemických a mecha
 Ďalší rušivý faktor pri vyšetrení EKG predstavuje svalová aktivita, najmä pri záťažovom EKG. Svaly počas pohybu vytvárajú elektrické impulzy, ktoré sa potom prejavujú vo forme muskuloskeletálneho artefaktu. Najväčším problémom v zdolaní účinku myopotenciálov je vzájomné prekrývanie frekvenčného pásma svalovej aktivity a užitočného pásma EKG. Na odstránenie tohto artefaktu nie je účinná pásmová priepusť. Vyžaduje sa pokročilejšie riešenie, napríklad pomocou adaptívnej filtrácie. 
 
 \newpage
-\subsubsection{Voľba filtrov}
-\subsubsection*{Nekonečná impulzná odozva - IIR}
+\subsubsection{Číslicové filtre}
+
 \subsubsection*{Konečná impulzná odozva - FIR}
-
-
+,,Filtre s konečnou impulznou charakteristikou (FIR – Finite Impulse Response) sú filtrami  matematicky  jednoduchšie  opísateľnými  ako  IIR  filtre,  pretože  sú  väčšinou realizované nerekurzívne (nemajú spätnú väzbu). Pri nerekurzívnej realizácií má filter všetky póly v počiatku, čo mu zaručuje stabilitu. Medzi základné vlastnosti FIR filtrov je okrem stability aj možnosť získať lineárnu fázovú kmitočtovú charakteristiku v celom kmitočtovom rozsahu." 
+\begin{flushright}
+(Tuka, 2015)
+\end{flushright}
 
 \begin{figure}[!ht]
 \begin{center}
-\includegraphics[scale=0.7]{flowchart}
-\caption{Bloková schéma spracovania EKG}
+\includegraphics[scale=0.2]{fir-blokova-schema}
+\caption{Bloková schéma FIR filtra}
 \end{center}
 \end{figure}
+
+\subsubsection*{Nekonečná impulzná odozva - IIR}
+,,Filtre s nekonečnou impulznou charakteristikou (IIR – Infinite Impulse Response) vznikli ako číslicové varianty analógových filtrov. Sú matematicky zložitejšie ako FIR filtre, pretože  sú  realizovanérekurzívne  (vždy  obsahujú  spätnú  väzbu).  Oproti  FIR filtrom však nie je treba tak veľký počet oneskorovacích členov a preto je možné ho použiť aj na kratšie dáta (inicializácia nie je tak dlhá). IIR filtre majú všeobecne väčší počet zapojení ako FIR práve pre ich rekurzívnu časť."
+\begin{flushright}
+(Tuka, 2015)
+\end{flushright}
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[scale=0.2]{iir-blokova-schema}
+\caption{Bloková schéma IIR filtra}
+\end{center}
+\end{figure}
+
 
 \newpage
 \section{Metodika práce}
@@ -479,7 +498,7 @@ Nakoniec boli všetky komponenty upevnené obojstrannou lepiacou páskou. Rozši
 
 \newpage
 \subsection{Tvorba softvéru}
-Softvérová zložka tvorí druhú navýznamnejšiu časť tejto práce. Z hľadiska spracúvania, zobrazovania, vyhodnocovania a eventuálnej použiteľnosti signálu zohrávajú programové prostriedky dôležitú a nenahraditeľnú úlohu. Vývoj softvéru predstavoval komplexný proces, ktorý zahŕňal zúžitkovanie možností rôznych programovacích jazykov a prostredí.
+Softvérová zložka tvorí druhú navýznamnejšiu časť tejto práce. Z hľadiska spracúvania, zobrazovania, vyhodnocovania a eventuálnej použiteľnosti signálu zohrávajú programové prostriedky dôležitú a nenahraditeľnú úlohu. Vývoj softvéru predstavoval komplexný proces, ktorý zahŕňal zužitkovanie možností rôznych programovacích jazykov a prostredí.
 
 Každý stupeň práce so signálom má za úlohu riešiť samostatný problém a zároveň komunikovať s ostatnými jednotkami. Aplikačná vrstva projektu sa delí na tri hlavné časti:
 \begin{enumerate}
@@ -490,6 +509,18 @@ Každý stupeň práce so signálom má za úlohu riešiť samostatný problém 
 
 \subsubsection{Hardvérové programovanie}
 Prvá fáza sa zaoberá primárnym filtrovaním na úrovni mikroprocesora. Pozostáva z potláčania sieťovového brumu, kolísania nulovej línie a iných artefaktov (viď. podkapitolu \textit{2.5 Signál a jeho spracovanie}). Na tento účel boli použité zdrojové kódy z voľne dostupného internetového repozitára \footnote{Repozitár sa nachádza na adrese https://github.com/tttapa/Filters a vlastníkom je Pieter Pas.}, keďže návrh filtrov nespadá do sféry pôsobnosti tejto odbornej práce. V kóde sú implementované knižnice filtrov FIR a IIR. Obsahuje taktiež matematicky odvodené koeficienty, ktoré určujú charakteristiky filtrov zvlášť prispôsobené k elektrokardiografii. Softvér bol doplnený o algoritmus, ktorý popri filtrovaní súčasne riadi vysokorýchlostné zaznamenávanie údajov na pripojenú pamäťovú kartu MicroSD.
+
+\subsubsection{Grafické používateľské rozhranie (GUI)}
+Na zobrazenie zmeranej krivky EKG existujú tri možnosti. Jedna z nich je mechanický spôsob, čiže tepelná tlač na papier. Ďalšie sú integrovaná obrazovka alebo externé zariadenie s displejom. Najuniverzálnejšie a najekonomickejšie riešenie je signál spracovať na počítači. Pri voľbe vhodného prostredia na tvorbu softvéru sa prihliadalo i na multiplatformovosť.
+
+Processing 3 je voľne dostupná grafická knižnica a vývojové prostredie (IDE), ktoré disponuje prostriedkami umožňujúcimi vykresľovanie grafov a priamu komunikáciou s mikrokontrolérom. Processing funguje na základe programovacieho jazyka Java a obsahuje ďalšie rozšírené technické a matematické nástroje. 
+
+Sériová komunikácia prebieha pomerne vysokou prenosovou rýchlosťou 115200 bps pre dosíahnutie čo najväčšieho rozlíšenia. Prichádzajúce údaje odchytáva \textbf{sledovač udalostí (event listener)}, ktorý má za úlohu ich transformovať do rozsahu zobraziteľného.
+
+O samotné vykresľovanie grafu sa stará natívna funkcia \textbf{draw()}, ktorá sa opakovane vykonáva počas behu programu. Definuje nové súradnice krivky grafu a spája ich s posledným známym bodom grafu.
+
+Funkcie programu zahŕňajú výber vstupného portu, ukladanie snímok grafu a exportovanie zaznamenaných hodnôt. Výber portu funguje pomocou rozotváracej ponuky (dropdown menu), ktorá obsahuje všetky dostupné rozhrania. Po zvolení portu, ak bol úspešne otvorený, sa začne vykresľovať graf na obrazovke. Naľavo od tejto lišty sa nachádza tlačidlo na zosnímanie obrazovky. Snímka sa následne uloží do predvoleného adresára. Tretia možnosť je nahrávanie meraných hodnôt prostredníctvom prepínača ,,REC". Po ukončení záznamu - opätovným kliknutím na prepínač - sa vygeneruje súbor CSV.
+
 
 \newpage
 \section{Výsledky a diskusia}
@@ -504,15 +535,21 @@ uspesne zvladnutie bezpecnosti
 nelekarske pouzitie ekg, navrh pouzitia v domacom/skolskom prostredi (arytmie, sledovanie pulzu, naucne ucely)
 zdielanie vysledkov s lekarom cez web
 
-
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[scale=0.7]{flowchart}
+\caption{Bloková schéma spracovania EKG}
+\end{center}
+\end{figure}
 
 
 \newpage
 \section{Závery práce}
+Komplexná odborná práce je zameraná na spracovanie EKG hardvérovo i digitálne.  
 
 
 \newpage
-\section*{Zoznam použitej literatúry}
+\section{Zoznam použitej literatúry}
 \begin{itemize}
 \item GEMINI, spol. s.r.o. 1991. Ľudské telo - Komplexný sprievodca po ľudskom tele a jeho funkciách. Bratislava. ISBN 80-85265-12-5.
 \item IAIZZO, Paul A. 2005. Handbook of Cardiac Anatomy, Physiology, and Devices. New Jersey. Human Press, Inc. ISBN 1-59259-835-8.
@@ -520,6 +557,7 @@ zdielanie vysledkov s lekarom cez web
 \item MALMIVUO, Jaakko, PLONSEY, Robert. 1995. Bioelectromagnetism - Principles and Applications of Bioelectric and Biomagnetic Fields. Oxford. Oxford University Press.
 \item BÓRIKOVÁ, Ivana. 2016. Funkčné vyšetrenie respiračného, kardiovaskulárneho a močového systému. Portál Jesseniovej lekárskej fakulty Univerzity Komenského. ISSN 1337-7396.
 \item MIŠČÍK, Peter. 2011. Zpracování elektrokardiogramu. Vysoké učení technické v Brně. 
+\item TUKA, Marián. 2015. Potlačení aditivního šumu. Vysoké učení technické v Brně. 
 \item www.kardiolog.sk/o-srdci/
 \item www.techmed.sk/akcny-potencial/
 \item www.wikiskripta.eu/w/Rušení\_biosignálů\_a\_artefakty
@@ -529,8 +567,20 @@ zdielanie vysledkov s lekarom cez web
 \item techfun.sk/produkt/ft232rl-programator-s-mini-usb-5v-3-3v/
 \item techfun.sk/produkt/slot-pre-micro-sd-kartu/
 \item github.com/tttapa/Filters
-
 \end{itemize}
 
+\newpage
+\section{Prílohy}
+\subsection*{Príloha A (obsah CD)}
+\begin{itemize}
+	\item Schéma zapojenia a návrh plošného spoja vyexportované z Eaglu
+	\item Program nahratý na mikroprocesor a použité knižnice
+	\item Zdrojový kód počítačovej aplikácie a spustiteľný súbor
+	\item Zdrojový kód webovej stránky
+\end{itemize}
+\subsection*{Príloha B}
+\begin{itemize}
+	\item Fotodokumentácia projektu
+\end{itemize}
 
 \end{document}

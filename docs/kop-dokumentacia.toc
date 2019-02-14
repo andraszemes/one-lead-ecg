@@ -12,7 +12,7 @@
 \contentsline {subsubsection}{\numberline {2.5.1}Sie\IeC {\v t}ov\IeC {\'y} brum}{14}
 \contentsline {subsubsection}{\numberline {2.5.2}Potla\IeC {\v c}enie driftu}{14}
 \contentsline {subsubsection}{\numberline {2.5.3}Myopotenci\IeC {\'a}ly}{14}
-\contentsline {subsubsection}{\numberline {2.5.4}Vo\IeC {\v l}ba filtrov}{15}
+\contentsline {subsubsection}{\numberline {2.5.4}\IeC {\v C}\IeC {\'\i }slicov\IeC {\'e} filtre}{15}
 \contentsline {section}{\numberline {3}Metodika pr\IeC {\'a}ce}{16}
 \contentsline {subsection}{\numberline {3.1}N\IeC {\'a}vrh a kon\IeC {\v s}trukcia hardv\IeC {\'e}ru}{16}
 \contentsline {subsubsection}{\numberline {3.1.1}Zosil\IeC {\v n}ovac\IeC {\'\i } obvod na v\IeC {\'y}vojovej doske}{16}
@@ -21,5 +21,8 @@
 \contentsline {subsubsection}{\numberline {3.1.4}Kon\IeC {\v s}trukcia zariadenia}{20}
 \contentsline {subsection}{\numberline {3.2}Tvorba softv\IeC {\'e}ru}{21}
 \contentsline {subsubsection}{\numberline {3.2.1}Hardv\IeC {\'e}rov\IeC {\'e} programovanie}{21}
-\contentsline {section}{\numberline {4}V\IeC {\'y}sledky a diskusia}{22}
-\contentsline {section}{\numberline {5}Z\IeC {\'a}very pr\IeC {\'a}ce}{23}
+\contentsline {subsubsection}{\numberline {3.2.2}Grafick\IeC {\'e} pou\IeC {\v z}\IeC {\'\i }vate\IeC {\v l}sk\IeC {\'e} rozhranie (GUI)}{21}
+\contentsline {section}{\numberline {4}V\IeC {\'y}sledky a diskusia}{23}
+\contentsline {section}{\numberline {5}Z\IeC {\'a}very pr\IeC {\'a}ce}{24}
+\contentsline {section}{\numberline {6}Zoznam pou\IeC {\v z}itej literat\IeC {\'u}ry}{25}
+\contentsline {section}{\numberline {7}Pr\IeC {\'\i }lohy}{26}
