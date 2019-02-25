@@ -27,6 +27,6 @@
 \contentsline {paragraph}{\textbf {Kvalitat\IeC {\'\i }vne}}{23}
 \contentsline {paragraph}{Predmetom pr\IeC {\'a}ce je sledovanie srdcov\IeC {\'e}ho rytmu.}{23}
 \contentsline {paragraph}{Bezpe\IeC {\v c}nos\IeC {\v t}}{24}
-\contentsline {section}{\numberline {5}Z\IeC {\'a}very pr\IeC {\'a}ce}{26}
-\contentsline {section}{\numberline {6}Zoznam pou\IeC {\v z}itej literat\IeC {\'u}ry}{27}
-\contentsline {section}{\numberline {7}Pr\IeC {\'\i }lohy}{28}
+\contentsline {section}{\numberline {5}Z\IeC {\'a}very pr\IeC {\'a}ce}{27}
+\contentsline {section}{\numberline {6}Zoznam pou\IeC {\v z}itej literat\IeC {\'u}ry}{28}
+\contentsline {section}{\numberline {7}Pr\IeC {\'\i }lohy}{29}
