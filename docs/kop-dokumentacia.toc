@@ -22,11 +22,11 @@
 \contentsline {subsection}{\numberline {3.2}Tvorba softv\IeC {\'e}ru}{21}
 \contentsline {subsubsection}{\numberline {3.2.1}Hardv\IeC {\'e}rov\IeC {\'e} programovanie}{21}
 \contentsline {subsubsection}{\numberline {3.2.2}Grafick\IeC {\'e} pou\IeC {\v z}\IeC {\'\i }vate\IeC {\v l}sk\IeC {\'e} rozhranie (GUI)}{21}
+\contentsline {subsubsection}{\numberline {3.2.3}Webov\IeC {\'a} str\IeC {\'a}nka}{22}
 \contentsline {section}{\numberline {4}V\IeC {\'y}sledky a diskusia}{23}
 \contentsline {paragraph}{\textbf {Kvantitat\IeC {\'\i }vne}}{23}
 \contentsline {paragraph}{\textbf {Kvalitat\IeC {\'\i }vne}}{23}
-\contentsline {paragraph}{Predmetom pr\IeC {\'a}ce je sledovanie srdcov\IeC {\'e}ho rytmu.}{23}
-\contentsline {paragraph}{Bezpe\IeC {\v c}nos\IeC {\v t}}{24}
+\contentsline {paragraph}{\IeC {\'U}lohou zariadenia je sledovanie srdcov\IeC {\'e}ho rytmu.}{23}
 \contentsline {section}{\numberline {5}Z\IeC {\'a}very pr\IeC {\'a}ce}{27}
 \contentsline {section}{\numberline {6}Zoznam pou\IeC {\v z}itej literat\IeC {\'u}ry}{28}
 \contentsline {section}{\numberline {7}Pr\IeC {\'\i }lohy}{29}

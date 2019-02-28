@@ -48,7 +48,7 @@
 
 \setcounter{page}{2}
 \section*{Praktická časť odbornej zložky maturitnej skúšky}
-a \underline{Zadanie úlohy pre komplexnú maturitnú skúšku:} 
+\underline{Zadanie úlohy pre komplexnú maturitnú skúšku:} 
 \newline
 
 \begin{description}
@@ -108,7 +108,7 @@ V Nových Zámkoch dňa \today
     \item Vytvorenie a konštrukcia prístroja na meranie EKG
     \item Vytvorenie elektronickej časti, práca s mikrokontrolérom
     \item Vytvorenie PC aplikácie na grafické zobrazenie spracovaných údajov
-    \item Webové rozhranie ku spracovaným dátam
+    \item Webové rozhranie k spracovaným dátam
 \end{enumerate}
 
 \newpage
@@ -147,30 +147,33 @@ Myslím si, že najväčším nepriateľom ľudstva je neinformovanosť. Pokiaľ
 
 \newpage
 \section{Ciele}
-Kľúč úspešného elektrotechnického projektu spočíva v dokonalej spolupráci jeho elektronických a informačných zložiek. Zámerom tejto práce je poukázať na to, že aj pomerne jednoduchými komponentmi sa dajú vyriešiť komplexné problémy. 
+Hlavným cieľom práce je zhotoviť prístroj, elektrokardiograf, na snímanie a zachytenie elektrických potenciálov srdca. Zariadenie bude somatické ukazovatele získavať, zhromažďovať, filtrovať a poskytovať koncovému používateľovi v grafickej podobe na vyhodnotenie.
 
-Dôležité aspekty výslednej práce sú univerzálnosť, portabilita a intuitívny dizajn. Prístroj by mal dokázať použiť každý bez špeciálneho vybavenia a bez podrobnej znalosti jeho fungovania. Riešenie má byť taktiež prenosné, aby bolo neobmedzene využiteľné.
+Kľúč úspešného zvládnutia projektu medzidisciplinárneho charakteru spočíva v dokonalej spolupráci jeho rôznych zložiek. Zámerom tejto práce je poukázať na to, že aj pomerne jednodu-chými súčiastkami, ktoré sa navzájom dopĺňajú a spolupracujú medzi sebou, sa dajú vyriešiť zložité problémy.
 
-Pri návrhu plošného spoja sa muselo prihliadať i na bezpečnosť pri použití prístroja. Elektrokardiograf sleduje pulz snímaním elektrických potenciálov srdca z povrchu tela elektródami. Napájaním obvodu batériami a ochranou malým napätím sa zabránilo výskytu nečakaných a potenciálne rizikových situácií.
+Výstupom práce bude prehľad relevantnej teórie spracovaný v dokumentácii, 
+funkčné zaria-denie EKG s potrebným príslušenstvom, počítačový program a webová stránka, ktorá bude obsahovať dôležité informácie o projekte a ponúkať návštevníkom možnosť zdieľania nahratých záznamov EKG.
 
-Pomocou jednozvodového EKG vieme určiť pulz, srdcový rytmus, ba aj odhaliť prítomnosť srdových arytmií a fibrilácie predsiení. Projekt môže taktiež slúžiť ako pomôcka pri výučbe elektroniky, programovania či informatiky. Znázorňuje fungovanie signálových filtrov, operačných zosilňovačov, mikrokontrolérov a grafických počítačových aplikácií.
+Medzi prioritami pri návrhu elektronických zložiek je na prvom mieste bezpečnosť, keďže sa pri prevádzke bude obvod bezprostredne a vodivo spájať s telom vyšetrovaného. Takýto kontakt je nevyhnutný kvôli potrebe snímania elektrických potenciálov.
+
+Na základe výsledkov merania jednozvodovým EKG je možné určiť pulz, srdcový rytmus, ba aj odhaliť prítomnosť srdových arytmií a fibrilácie predsiení. Projekt môže taktiež slúžiť ako pomôcka pri výučbe elektroniky, programovania či informatiky. Znázorňuje fungovanie signálových filtrov, operačných zosilňovačov, mikrokontrolérov a grafických počítačových aplikácií.
+
+Dôležité vlastnosti výslednej práce budú bezpečnosť, presnosť a viacúčelovosť. Prístroj by mal dokázať použiť každý bez zvláštneho vybavenia a bez podrobnej znalosti jeho fungovania. Riešenie má byť taktiež kompaktné, prenosné a miestom neviazané. 
 
 \newpage
 \section{Problematika a prehľad literatúry}
-Dovoľujem si vás oboznámiť s teoretickými východiskami a informovať o základných poznatkoch, ktoré sa týkajú nastolenej problematiky. Princípy elektrokardiografie tvoria kmeň tejto práce a sú jej neoddeliteľnou súčasťou.
+Kapitola uvádza základné poznatky a zaoberá sa teoretickými východiskami, ktoré s nastolenou problematikou súvisia. Princípy elektrokardiografie tvoria základ pre pochopenie činnosti zariadenia a sú jeho neoddeliteľnou súčasťou.
 
 
 \subsection{Elektrofyziológia srdca}
 
-Základom vnútorného fungovania srdca je jeho elektrická aktivita. Srdce je jedinečný orgán z hľadiska, že jeho elektrická činnosť nie je nervovo založená. Vykonávajú ju špecializované vodivé svalové bunky. Zväzky takýchto buniek podmieňujú čerpaciu schopnosť srdca.
+Základom vnútorného fungovania srdca je jeho elektrická aktivita. Srdce je jedinečný orgán z pohľadu, že jeho elektrická činnosť nie je nervovo založená. Vykonávajú ju špecializované vodivé svalové bunky. Zväzky takýchto buniek určujú čerpaciu schopnosť srdca.
 
-Svalové kontrakcie sú riadené elektrickými impulzmi, ktoré sa šíria po prevodovom systéme a pracovnom myokarde. Menia elektrické potenciály na rôznych bodoch pokožky približne \linebreak o tisícinu voltu (1 mV). Táto elektrická aktivita skrýva v sebe neuveriteľné množstvo informácií, prostredníctvom ktorých získame náhľad do fungovania tohto zázračného orgánu.
+Svalové kontrakcie sú riadené elektrickými impulzmi, ktoré sa šíria po prevodovom systéme a pracovnom myokarde. Menia elektrické potenciály na rôznych bodoch pokožky približne \linebreak o tisícinu voltu (1 mV). Táto elektrická aktivita skrýva v sebe neuveriteľné množstvo informácií, prostredníctvom ktorých získavame náhľad do fungovania srdca.
 
-Zdrojom týchto impulzov je sinoatriálny (SA) uzol, ktorý sa nachádza v stene hornej časti pravej predsiene. Udáva frekvenciu kontrakcií myokardu (srdcového svalstva), ktorá je nominálne 70 tepov za minútu.
+Zdrojom týchto impulzov je sinoatriálny (SA) uzol, ktorý sa nachádza v stene hornej časti pravej predsiene. Udáva frekvenciu kontrakcií myokardu (srdcového svalstva), ktorá je nomi-nálne 70 tepov za minútu.
 
-Signály sa ďalej šíria vodivými dráhami predsiení a stimulujú svalové kontrakcie. Pokračujú po srdcovej priehradke, septe, ktorá oddeľuje dve polovice srdca. Blízko bodu spojenia štyroch dutín srdca sa nachádza zhluk špeciálnych buniek - atrioventrikulárny (AV) uzol. Uzol AV postup vzruchov mierne inhibuje a následne ich vysiela do Hisovho zväzku.
-
-Hisov zväzok  sa delí na dve vetvy, tzv. Tawarove ramienka. Obidve vetvy vedú do siete Purkyňových vláken, ktoré aktivujú pracovný myokard.
+Signály sa ďalej šíria vodivými dráhami predsiení a stimulujú svalové kontrakcie. Pokračujú po srdcovej priehradke, septe, ktorá oddeľuje dve polovice srdca. Blízko bodu spojenia štyroch dutín srdca sa nachádza zhluk špeciálnych buniek - atrioventrikulárny (AV) uzol. Uzol AV postup vzruchov mierne spomaľuje a následne ich vysiela do Hisovho zväzku, ktorý sa delí na dve vetvy, tzv. Tawarove ramienka. Obidve vetvy vedú do siete Purkyňových vláken, ktoré aktivujú pracovný myokard.
 \\
 \\
 
@@ -183,20 +186,20 @@ Hisov zväzok  sa delí na dve vetvy, tzv. Tawarove ramienka. Obidve vetvy vedú
 
 \newpage
 \subsection{Akčný potenciál}
-Ako vyrába a prenáša srdcové tkanivo elektrické impulzy? Aby sme si priebeh tohto deja mohli vysvetliť, musíme sa preniesť až na úroveň atómov.
+Ako vyrába a prenáša srdcové tkanivo elektrické impulzy? Pre pochopenie tohto deja sa musíme preniesť až na úroveň atómov.
 
 \emph{Atóm je neutrálny,} ak má rovnaký počet protónov (kladne nabitých častíc) a elektrónov (záporne nabitých častíc). 
 
 \emph{Ióny vznikajú} z elektricky neutrálnych atómov pridaním resp. ubraním elektrónov. 
 
-V pokoji je srdcová bunka v \emph{polarizovanom stave}:
+V pokoji sa srdcová bunka nachádza v \emph{polarizovanom stave}:
 \begin{itemize}
 	\item mimobunkový priestor je elektricky pozitívny pre vysokú koncentráciu kladných iónov sodíka a vápnika
-	\item vnútrobunkový priestor je oproti vonkajšej strane negatívny
-	\item rozdiel potenciálov je -90mV
+	\item vnútrobunkový priestor je oproti vonkajšej strane elektricky negatívny
+	\item rozdiel potenciálov medzi vnútrobunkovým a mimobunkovým priestorom je 90mV
 \end{itemize}
 
-Keď pokojový membránový potenciál dosiahne určitú prahovú hodnotu (cca. 15 mV), tzv. \emph{akčný potenciál}, tento pokojový stav sa náhle zmení. V membráne bunky sa otvoria prieduchy a kladne nabité ióny prúdia späť do bunky. Táto náhla strata polarizácie sa volá depolarizácia \linebreak a vzniká pri nej elektrický prúd.
+Keď pokojový membránový potenciál dosiahne určitú prahovú hodnotu (cca. 15 mV), tzv. \emph{akčný potenciál}, tento pokojový stav sa náhle zmení. V membráne bunky sa otvoria prieduchy a kladne nabité ióny prúdia späť dovnútra bunky. Táto náhla strata polarizácie sa volá depolarizácia a vzniká pri nej elektrický prúd.
 
 Po depolarizácii nastáva protikladný dej, repolarizácia, keď sa ióny znovu prečerpávajú von mimo membránu. Depolarizačná vlna vyvolávaná uzlom SA sa šíri po prevodovom systéme srdca a uvádza svaly do pohybu. Proces, ktorý začal pumpovaním iónov takto končí pumpovaním krvi. 
 
@@ -223,9 +226,7 @@ Je najčastejšie používaný zo všetkých typov EKG. Pozostáva zo 6 končati
 \subsubsection*{Záťažové EKG (ergometria)}
 Ukáže správanie srdca a obehového systému pri námahovej aktivite. Na simuláciu sa väčšinou používa stacionárny bicykel alebo bežecký pás. Monitoruje sa záznam EKG v súvislosti \linebreak s krvným tlakom. Na zázname sa pátra po zmenách, ktoré na EKG urobenom v pokoji nie sú viditeľné.
 \subsubsection*{Dynamické EKG}
-Umožňuje sledovať srdcovú činnosť pri bežných aktivitách počas 12-48 hodín. Zvýšením doby monitorovania sa zvyšuje pravdepodobnosť nálezu nepravidelností rytmu alebo námahových ischémií myokardu v zázname.
-\subsubsection*{Tlakový Holter}
-Ambulantné 24-hodinové sledovanie krvného tlaku je jednoduché vyšetrenie často indikované pri diagnostikovaní hypertenzie. Sníma sa tlak krvi v domácom prostredí pri každodenných činnostiach pomocou nafukovacej manžety.
+Umožňuje sledovať srdcovú činnosť pri bežných aktivitách počas 12-48 hodín. Zvýšením doby monitorovania sa zvyšuje pravdepodobnosť nálezu nepravidelností rytmu alebo námahových ischémií myokardu\footnote{Ischémia myokardu - nedostatočné prekrvenie srdcového svalu} v zázname.
 \\
 \\
 EKG určuje základné fyziologické hodnoty ako sú frekvencia srdcovej činnosti, rytmus, elektrická os srdca, prevodové časy a morfológia segmentov EKG krivky. Na základe týchto para-metrov môže byť stanovená diagnóza a rozpoznaná porucha srdcového rytmu (arytmia), porucha prevodu elektrických vzruchov, ischemická choroba srdca a iné patologické zmeny v myokarde.
@@ -263,7 +264,7 @@ Premieňa prúd na mechanický pohyb.
 \\
 \textbf{Sada EKG káblov}
 \\
-Slúžia na spojenie zvyčajne desiatich elektród s hlavnou jednotkou prístroja EKG. Takáto konfigurácia umožňuje monitorovať srdce z 12 ,,pohľadov".
+Slúžia na spojenie zvyčajne desiatich elektród\footnote{Kombináciou dvojíc elektród EKG prístroj na papier vygeneruje EKG zvody} s hlavnou jednotkou prístroja EKG. Takáto konfigurácia umožňuje monitorovať srdce z 12 ,,pohľadov". Vodiče medicínskych prístrojov bývajú spravidla chránené zvýšeným tienením pred vysokofrekvenčným rušením.
 
 \subsubsection{Výdobytky modernej elektrokardiografie}
 Moderné prístroje EKG disponujú zabudovanými mikroprocesormi, ktoré ich riadia a rozširujú ich diagnostické schopnosti. Vďaka sofistikovaným matematickým algoritmom a modelom sú schopné previesť zložitú analýzu signálu a automaticky ho vyhodnotiť. Sú kompaktné, prenosné a vhodné i na monitorovanie mimo zdravotníckeho zariadenia.
@@ -276,7 +277,7 @@ Kardiologický monitor je častým rozšírením zariadenia EKG a umožňuje dlh
 \newpage
 
 \subsection{Umiestnenie elektród}
-Tri končatinové elektródy (pravá ruka, ľavá ruka, ľavá noha)  vytvárajú Einthovenov trojuholník. Vzniknú 3 \emph{bipolárne zvody} reprezentované stranami trojuholníka. Každý zvod pozostáva \linebreak z dvoch elektród, z pozitívneho a z negatívneho. Pozitívny a negatívny pól spolu tvoria elektrický vektor, ktorý sa premieta na papier.
+Tri končatinové elektródy (pravá ruka, ľavá ruka, ľavá noha)  vytvárajú Einthovenov trojuholník. Vzniknú 3 \emph{bipolárne zvody} reprezentované stranami trojuholníka. Každý zvod pozostáva \linebreak z dvoch elektród, z jednej pozitívnej a z jednej negatívnej. Negatívna elektróda predstavuje depolarizovanú časť (-), pozitívna repolarizovanú časť (+) srdca. Pozitívny a negatívny pól spolu tvoria elektrický vektor, ktorý sa premieta na papier ako krivka EKG.
 
 \begin{description}
 	\item Zvod I: \tabto{1cm} $V_{I} = \phi_L - \phi_R$
@@ -309,7 +310,7 @@ Einthoven definoval rozdiely potenciálov medzi troma pármi horeuvedených bodo
 
 
 \subsection{Signál a jeho spracovanie}
-Po úspešnom zmeraní a zosilnení signálu čelíme zložitej prekážke v snahe zachytiť srdcový rytmus. Signál je síce zosilnený, ale naďalej obsahuje mnoho nežiaducich elementov vplyvom rušivých faktorov z okolia. Výsledkom je skreslený biosignál, ktorý je v tejto fáze nepoužiteľný.
+Po úspešnom zmeraní a zosilnení signálu je potrebné vysporiadať sa s určitými prekážkami, nepresnosťami v snahe zachytiť srdcový rytmus. Signál je síce zosilnený, ale naďalej obsahuje mnoho nežiaducich elementov vplyvom rušivých faktorov z okolia. Výsledkom je skreslený biosignál, ktorý je v tejto fáze nepoužiteľný.
 
 Nepresnosti v meraniach odborne nazývame \emph{artefakty}. Artefakty sa môžu prejavovať \linebreak v menšej či väčšej miere v závislosti od nedokonalostí v priebehu vedenia signálu z pacienta do aparatúry (prístroja). V elektrokardiografii rozoznávame tri základné druhy artefaktov:
 \begin{itemize}
@@ -321,19 +322,19 @@ Nepresnosti v meraniach odborne nazývame \emph{artefakty}. Artefakty sa môžu 
 V minimalizácii nežiaduceho šumu nám napomáha súbor špecializovaných hardvérových \linebreak i digitálnych filtrov.
 
 \subsubsection{Sieťový brum}
-Prvým krokom spracovania signálu je základná hardvérová filtrácia. Elektromagnetická interferencia (EMI) vzniká pôsobením  elektromagnetického poľa z elektrickej siete. Pri tomto jave dochádza k vzniku indukovaného napätia (Ui) a indukovaného prúdu na vodiči. Šum opísaného druhu môžeme charakterizovať pri frekvencii 50 Hz sínusového rušenia. Na potlačenie sieťového brumu je účinná kombinácia hardvérového RC článku s digitálnym filtrom. 
+Prvým krokom spracovania signálu je základná hardvérová filtrácia. Elektromagnetická interferencia (EMI) vzniká pôsobením  elektromagnetického poľa z elektrickej siete. Pri tomto jave dochádza k vzniku indukovaného napätia (Ui) a indukovaného prúdu vo vodiči. Šum opísaného druhu môžeme charakterizovať pri frekvencii 50 Hz sínusového rušenia. Na potlačenie sieťového brumu je účinná kombinácia hardvérového RC článku s digitálnym filtrom. 
 
 \subsubsection{Potlačenie driftu}
 Drift alebo kolísanie nulovej línie opisuje skupinu elektrochemických a mechanických javov. Príkladmi elektrochemických sú potenie pod elektródami, nedostatočné odmastenie pokožky, malé množstvo kontaktného gélu. Dýchanie (do 0,8 Hz) a pomalé pohyby klienta (do 2 Hz) sú mechanické javy. Na odstránenie nízkofrekvenčnej rušivej zložky použijeme hornopriepustný filter.
 
 \subsubsection{Myopotenciály}
-Ďalší rušivý faktor pri vyšetrení EKG predstavuje svalová aktivita, najmä pri záťažovom EKG. Svaly počas pohybu vytvárajú elektrické impulzy, ktoré sa potom prejavujú vo forme muskuloskeletálneho artefaktu. Najväčším problémom v zdolaní účinku myopotenciálov je vzájomné prekrývanie frekvenčného pásma svalovej aktivity a užitočného pásma EKG. Na odstránenie tohto artefaktu nie je účinná pásmová priepusť. Vyžaduje sa pokročilejšie riešenie, napríklad pomocou adaptívnej filtrácie. 
+Ďalší rušivý faktor pri vyšetrení EKG predstavuje svalová aktivita, najmä pri záťažovom EKG. Svaly počas pohybu vytvárajú elektrické impulzy, ktoré sa potom prejavujú vo forme muskuloskeletálneho artefaktu\footnote{nepresnosť merania spôsobená pohybom}. Najväčším problémom v zdolaní účinku myopotenciálov je vzájomné prekrývanie frekvenčného pásma svalovej aktivity a užitočného pásma EKG. Na odstránenie tohto artefaktu nie je účinná pásmová priepusť. Vyžaduje sa pokročilejšie riešenie, napríklad pomocou adaptívnej filtrácie. 
 
 \newpage
 \subsubsection{Číslicové filtre}
 
 \subsubsection*{Konečná impulzná odozva - FIR}
-,,Filtre s konečnou impulznou charakteristikou (FIR – Finite Impulse Response) sú filtrami  matematicky  jednoduchšie  opísateľnými  ako  IIR  filtre,  pretože  sú  väčšinou realizované nerekur-zívne (nemajú spätnú väzbu). Pri nerekurzívnej realizácií má filter všetky póly v počiatku, čo mu zaručuje stabilitu. Medzi základné vlastnosti FIR filtrov je okrem stability aj možnosť získať lineárnu fázovú kmitočtovú charakteristiku v celom kmitočtovom rozsahu." 
+,,Filtre s konečnou impulznou charakteristikou (FIR – Finite Impulse Response) sú filtrami  matematicky  jednoduchšie  opísateľnými  ako  IIR  filtre,  pretože  sú  väčšinou realizované nerekur-zívne (nemajú spätnú väzbu). Pri nerekurzívnej realizácií má filter všetky póly v počiatku, čo mu zaručuje stabilitu. Medzi základné vlastnosti FIR filtrov je okrem stability aj možnosť získať lineárnu fázovú kmitočtovú charakteristiku v celom kmitočtovom rozsahu." \textsuperscript{[7]}
 \begin{flushright}
 (Tuka, 2015)
 \end{flushright}
@@ -346,7 +347,7 @@ Drift alebo kolísanie nulovej línie opisuje skupinu elektrochemických a mecha
 \end{figure}
 
 \subsubsection*{Nekonečná impulzná odozva - IIR}
-,,Filtre s nekonečnou impulznou charakteristikou (IIR – Infinite Impulse Response) vznikli ako číslicové varianty analógových filtrov. Sú matematicky zložitejšie ako FIR filtre, pretože  sú  realizovanérekurzívne  (vždy  obsahujú  spätnú  väzbu).  Oproti  FIR filtrom však nie je treba tak veľký počet oneskorovacích členov a preto je možné ho použiť aj na kratšie dáta (inicializácia nie je tak dlhá). IIR filtre majú všeobecne väčší počet zapojení ako FIR práve pre ich rekurzívnu časť."
+,,Filtre s nekonečnou impulznou charakteristikou (IIR – Infinite Impulse Response) vznikli ako číslicové varianty analógových filtrov. Sú matematicky zložitejšie ako FIR filtre, pretože  sú  realizované rekurzívne  (vždy  obsahujú  spätnú  väzbu).  Oproti  FIR filtrom však nie je treba tak veľký počet oneskorovacích členov a preto je možné ho použiť aj na kratšie dáta (inicializácia nie je tak dlhá). IIR filtre majú všeobecne väčší počet zapojení ako FIR práve pre ich rekurzívnu časť." \textsuperscript{[7]}
 \begin{flushright}
 (Tuka, 2015)
 \end{flushright}
@@ -361,30 +362,30 @@ Drift alebo kolísanie nulovej línie opisuje skupinu elektrochemických a mecha
 \newpage
 \section{Metodika práce}
 \subsection{Návrh a konštrukcia hardvéru}
-Proces návrhu hardvérových komponentov som si rozdelil do niekoľkých fáz kvôli systematic-kosti. Takýto spôsob práce mi umožnil priebežné testovanie a odhaľovanie možných chýb počas vývoja. Od začiatku až po finálny dizajn som prešiel tromi iteráciami projektu. 
+Proces návrhu hardvérových komponentov sa rozdelil do niekoľkých fáz kvôli \mbox{systematickosti}. Takýto spôsob práce umožnil priebežné testovanie a odhaľovanie možných chýb počas vývoja. Od začiatku až po finálny dizajn projekt prešiel tromi iteráciami. 
 
-Na návrh elektroniky a dizajn plošných spojov som používal grafický počítačový editor \linebreak Eagle (verzia 9.1.3).
+Na návrh elektroniky a dizajn plošných spojov sa používal grafický počítačový editor \linebreak Eagle (verzia 9.1.3).
 
 \subsubsection{Zosilňovací obvod na vývojovej doske}
-Prvý prototyp obvodu bol vyrobený podľa jednoduchej schémy. Pozostávala iba z jedného operačného zosilňovača a zopár rezistorov. Z bezpečnostných dôvodov bola namiesto laboratórneho zdroja použitá 9V batéria na napájanie obvodu. 
+Prvý prototyp obvodu bol vyrobený podľa jednoduchej schémy. Pozostával iba z jedného operač-ného zosilňovača a zopár rezistorov. Z bezpečnostných dôvodov bola namiesto laboratórneho zdroja použitá 9V batéria na napájanie obvodu. 
 
-Operačný zosilňovač LM741 slúži na zosilnenie nízkonapäťového vstupu z elektród prilože-ných na povrch tela. Je zapojený v diferenčnej konfigurácií, jeho invertujúci a neinvertujúci vstup predstavujú rozdielne napätia. Výstup je teda funkciou napäťovej diferencie medzi dvoma hrudnými elektródami. Faktor zisku je približne 50 podľa pomeru R5:R4. Z dôvodu, že zosilňovač funguje optimálne pre stredové hodnoty (medzi maximom a minimom), je nutné jeho vstupy dostať do použiteľného pásma. Na tento účel slúži napäťový delič R1-R2.
+Operačný zosilňovač LM741 slúži na zosilnenie nízkonapäťového vstupu z elektród prilože-ných na povrch tela. Je zapojený v diferenčnej konfigurácii, jeho invertujúci a neinvertujúci vstup predstavujú rozdielne napätia. Výstup je teda funkciou napäťovej diferencie medzi dvoma hrudnými elektródami. Faktor zisku je približne 50 podľa pomeru R5:R4. Z dôvodu, že zosilňo-vač funguje optimálne pre stredové hodnoty (medzi maximom a minimom), je nutné jeho vstupy dostať do použiteľného pásma. Na tento účel slúži napäťový delič R1-R2.
 
-Analógový výstup bol pripojený do 3,5 mm mikrofónového rozhrania zvukovej karty počítača. Signál prešiel základnou softvérovou filtráciou a bol graficky zobrazovaný pomocou počítačovej aplikácie.
+Analógový výstup bol pripojený do 3,5mm mikrofónového rozhrania zvukovej karty počítača. Signál prešiel základnou softvérovou filtráciou a bol graficky zobrazovaný pomocou počítačovej aplikácie.
 
-Hlavnou problematikou tohto návrhu bola všeobecná nespoľahlivosť a výskyt elektromagnetickej interferencie a iných artefaktov v meraných hodnotách.
+Hlavným nedostatkom tohto návrhu bola všeobecná nespoľahlivosť a výskyt elektromagne-tickej interferencie a iných artefaktov v meraných hodnotách. Dôvodom bola mimoriadna náchylnosť kovových dráh dosky k rušeniu.
 
 
 \begin{figure}[!ht]
 \begin{center}
-\includegraphics[scale=1.1]{schematic}
+\includegraphics[scale=1]{schematic}
 \caption{Schéma zosilňovacieho obvodu}
 \end{center}
 \end{figure}
 
 \newpage
 \subsubsection{Spájkovaný obvod}
-Ďalším krokom bolo navrhnúť plošný spoj v Eagli podľa vyššej uvedenej schémy zosilňovacieho obvodu. Na základe počítačového návrhu bol zhotovený druhý prototyp na spájkovateľnej vývojovej doske. Elektrické súčiastky boli osadené a pospájané vodivými cestami z cínu. Doska mala celkovo 6 vývodov:
+Ďalším krokom bol návrh plošného spoja v Eagli podľa vyššej uvedenej schémy zosilňovacieho obvodu. Na základe počítačového návrhu bol zhotovený druhý prototyp na spájkovateľnej vývojovej doske, ktorý už riešil väčšinu nedostatkov prvotného prototypu. Elektronické súčiastky boli osadené a pospájané vodivými cestami z cínu. Doska mala celkovo 6 vývodov:
 \begin{itemize}
 	\item VCC (+5V) napájanie
 	\item GND - zem
@@ -397,7 +398,7 @@ Signál bol meraný a spracúvaný za pomoci Arduina UNO. Výstup zo zosilňova�
 
 Zobrazovaný signál bol do veľkej miery znečistený, preto bolo nutné použiť softvérový filter. Najjednoduchší filter vhodný na úlohu bol súčasťou oficiálnej knižnice Filters.h. \footnote{Dokumentácia k spomínanej knižnici je dostupná na webovom sídle \textit{playground.arduino.cc/Code/Filters}}
 
-Nasledovný kód je implementáciou dolnopripustného filtra RC, ktorý slúži na vyhladenie signálu. Filter je nastavený na frekvenciu 50 Hz. Obsahuje deklaráciu premenných a inicializáciu triedy FilterOnePole.
+Nasledovný kód je implementáciou dolnopriepustného filtra RC, ktorý slúži na vyhladenie signálu. Filter je nastavený na frekvenciu 50 Hz. Obsahuje deklaráciu premenných a inicializáciu triedy FilterOnePole.
 
 \begin{lstlisting}
 float filterFrequency = 5.0; 
@@ -409,14 +410,14 @@ while(true) {
 }
 \end{lstlisting}
 
-Filter funguje na báze nekonečnej impulznej odozvy (IIR). Hlavnou výhodou je, že riešenie kladie veľmi nízke nároky na pamäť a výpočtovú kapacitu. Veľké pozitívum znamená taktiež jednoduchosť implementácie do projektu. Onedlho sa však prejavili seriózne problémy spôsobené vlastnosťami spomínaného filtra. Po úvodnom zachytení impulzov amplitúda postupne klesala, až kým nedosiahla nulu. Takéto správanie je nepriaznivým vedľajším účinkom IIR filtrov. 
+Filter funguje na báze nekonečnej impulznej odozvy (IIR). Hlavnou výhodou je, že riešenie kladie veľmi nízke nároky na pamäť a výpočtovú kapacitu. Veľké pozitívum znamená taktiež jednoduchosť implementácie do projektu. Onedlho sa však prejavili problémy spôsobené vlastnosťami spomínaného filtra. Po úvodnom zachytení impulzov amplitúda postupne klesala, až kým nedosiahla nulu. Takéto správanie je nepriaznivým vedľajším účinkom IIR filtrov. 
 
 \newpage
 \subsubsection{Finálny obvod a rozširovacie moduly}
-Výsledný produkt zahŕňa niekoľko dôležitých komponentov. Ústrednú časť štruktúry zariadenia tvorí osobitne navrhnutý a na mieru vyrobený plošný spoj. Táto doska priamo spája analógovú časť aplikácie dovedna s digitálnym signálovým procesorom. Ďalej je doplnená o dva rozširovacie moduly a batérie.
+Výsledný produkt zahŕňa niekoľko dôležitých komponentov. Ústrednú časť štruktúry zariadenia tvorí osobitne navrhnutý a na mieru vyrobený plošný spoj. Táto doska priamo spája analógovú časť aplikácie s digitálnym signálovým procesorom. Ďalej je doplnená o dva rozširovacie \linebreak moduly a batérie.
 
 \subsubsection*{Mikroprocesor}
-Mikroprocesor je centrálnym prvkom zariadenia. Zodpovedá za digitalizáciu a spracúvanie príchodzieho signálu, riadenie a koordináciu jednotlivých elektrických článkov v rámci aplikácie a odovzdávaie informácii počítaču.
+Mikroprocesor je centrálnym prvkom zariadenia. Zodpovedá za digitalizáciu a spracúvanie príchodzieho signálu, riadenie a koordináciu jednotlivých elektrických článkov v rámci aplikácie a odovzdávanie informácií počítaču.
 
 Pri výbere mikroprocesora sa prihliadalo na výkon, úspornosť, počet vývodov a na veľkosť dostupnej programovej pamäte. Nakoniec sa uprednostnil 8-bitový mikroradič Atmega328P z rodiny megaAVR od firmy Atmel. Vyhovel všetkým požiadavkám projektu, je vhodný na úlohu DSP a disponuje kvalitnou dokumentáciou i komunitnou podporou zo strany vývojárov. 
 Podrobnosti o mikroprocesore sú opísané v tabuľke nižšie.\footnote{Informácie boli čerpané zo stránky výrobcu \textit{www.microchip.com/wwwproducts/en/ATmega328p}}
@@ -428,8 +429,8 @@ Typ programovej pamäte          & Flash                \\
 Veľkosť programovej pamäte (KB) & 32                   \\
 Max. rýchlosť CPU (MIPS)        & 20                   \\
 Komunikačné periférie           & 1-UART, 2-SPI, 1-I2C \\
-Tepelná tolerancia (C)          & -40 do 85            \\
-Napájacie napätie (V)           & 1,8 do 5,5           \\
+Tepelná tolerancia (C)          & -40 až 85            \\
+Napájacie napätie (V)           & 1,8 až 5,5           \\
 Počet vývodov                   & 28                  
 \end{tabular}
 \caption{Parametre mikroprocesora}
@@ -440,9 +441,9 @@ Zavádzač (angl. bootloader) mikroprocesora je prvý program, ktorý sa spustí
 
 Samostatný čip Atmega328P sa dodáva bez zavádzača, tým pádom sa priamo nedá programovať. Proces napaľovania bootloadera riadi medzičlánok zvaný in-system program (ISP). Na túto rolu vyhovuje aj doska Arduino UNO.
 
-Prvým krokom je nahrať šablónu ArduinoISP na dosku. Potom sa prepojí mikročip s Arduinom podľa špecifickej schémy zapojenia. V nastaveniach sa zvolí typ dosky ,,Arduino Duemilanove alebo Nano" pre 16 MHz konfiguráciu. Za programátor sa vyberie možnosť ,,Arduino as ISP".
+Prvým krokom bolo nahrať šablónu ArduinoISP na dosku. Potom sa prepojil mikročip \linebreak s Arduinom podľa špecifickej schémy zapojenia (viď. prílohu C). V nastaveniach sa zvolil typ dosky ,,Arduino Duemilanove alebo Nano" pre 16 MHz konfiguráciu. Za programátor sa \linebreak vybrala možnosť ,,Arduino as ISP".
 
-Po dôkladnej kontrole všetkých nastavení sa môže spustiť nahrávanie zavádzača (Tools $\rightarrow$ Burn Bootloader).
+Po dôkladnej kontrole všetkých nastavení sa spustilo nahrávanie zavádzača (Tools $\rightarrow$ Burn Bootloader).
 
 
 \newpage
@@ -463,10 +464,10 @@ GND					& GND
 \end{table}
 
 \subsubsection*{Slot pre Micro SD kartu}
-Slot umožňuje čítanie a zapisovanie údajov na Micro SD kartu. Prenos údajov sa uskutočňuje cez štandardné SPI rozhranie. Modul funguje s logickým napätím 3.3V, avšak vďaka zabudovaného regulátora toleruje aj 5V. Tým pádom je plne kompatibilný so všetkými Arduino doskami a s príslušnou natívnou knižnicou \emph{SD.h} z ponuky Arduino IDE.
+Slot umožňuje čítanie a zapisovanie údajov na Micro SD kartu. Prenos údajov sa uskutočňuje cez štandardné SPI rozhranie. Modul funguje s logickým napätím 3.3V, avšak vďaka zabudovanému regulátoru toleruje aj 5V. Tým pádom je plne kompatibilný so všetkými Arduino doskami a s príslušnou natívnou knižnicou \emph{SD.h} z ponuky Arduino IDE.
 
 \subsubsection*{Výroba integrovaného plošného spoja}
-Hotový digitálny návrh skompletizovaného plošného spoja bol odoslaný do výroby profesionál-nemu výrobcovi. K objednávke bol priložený súbor \textit{.brd} vyexportovaný z projektu Eagle (viď. prílohu). Špecifikácie objednanej dosky: \\
+Hotový digitálny návrh skompletizovaného plošného spoja bol odoslaný do výroby profesionál-nemu výrobcovi. K objednávke bol priložený súbor \textit{.brd} vyexportovaný z projektu Eagle (viď. prílohu A). Špecifikácie objednanej dosky: \\
 \emph{Jednostranný plošný spoj so spájkovateľným ochranným lakom} \\
 \textbf{Hrúbka dosky a medenej vrstvy:} 1.5 mm, \SI{35}{\micro\m} \\
 \textbf{Rozmery PCB:} 65x50 mm \\
@@ -474,19 +475,19 @@ Hotový digitálny návrh skompletizovaného plošného spoja bol odoslaný do v
 
 Po doručení objednanej dosky nasledovalo manuálne osadenie súčiastok. Ako prvé boli prispájkované pätice integrovaných obvodov: DIP28 pre mikroprocesor a DIP8 pre operačný zosilňovač. Použitie pätíc sa odporúča v prípade citlivých komponentov z dôvodu, aby sa predišlo ich možnému poškodeniu pri vysokých teplotách počas spájkovania.
 
-Ďalej boli postupne osadené ostatné súčiastky ako kryštál 16 MHz, cievka, rezistory a keramické kondenzátory. Pri osadzovaní bipolárnych súčiastok (napr. svetelné diódy, elektrolytické kondenzátory) sa nesmie zabúdať na správne smerovanie kladných, resp. záporných pólov.
+Ďalej boli postupne osadené ostatné súčiastky ako kryštál 16 MHz, cievka, rezistory a kera-mické kondenzátory. Pri osadzovaní bipolárnych súčiastok (napr. svetelné diódy, elektrolytické kondenzátory) sa nesmie zabúdať na správne smerovanie kladných, resp. záporných pólov.
 
-Naposledy boli prispájkované napájacie a vstupnovýstupné piny pre rozširovacie moduly \linebreak a elektródové vodiče.
+Naposledy boli prispájkované napájacie a vstupno-výstupné piny pre rozširovacie moduly \linebreak a elektródové vodiče.
 
 \newpage
 \subsubsection{Konštrukcia zariadenia}
-Posledným krokom v práci s hradvérom bolo umiestniť všetký komponenty do škatuľky. Na tento účel padla voľba na univerzálny kryt HM-1553DGY\footnote{Technický výkres krytu so špecifikáciami a rozmermi sa nachádza na stránke distribútora \\ https://www.tme.eu/sk/Document/bd6787db93f837d8972974413558d5cd/HM-1553DBK.pdf} od Hammmondu s rozmermi \linebreak 89x147x24 mm v tmavosivom prevedení. Výrobný materiál je plast ABS. Kryt sa skladá \linebreak z troch častí: z predného panelu a z vrchnej a spodnej časti, ktoré sa uzatvárajú štyrmi skrutkami. 
+Posledným krokom v práci s hradvérom bolo umiestniť všetky komponenty do škatuľky. Na tento účel padla voľba na univerzálny kryt HM-1553DGY\footnote{Technický výkres krytu so špecifikáciami a rozmermi sa nachádza na stránke distribútora \\ https://www.tme.eu/sk/Document/bd6787db93f837d8972974413558d5cd/HM-1553DBK.pdf} od Hammmondu s rozmermi \linebreak 89x147x24 mm v tmavosivom prevedení. Výrobný materiál je plast ABS. Kryt sa skladá \linebreak z troch častí: z predného panelu a z vrchnej a spodnej časti, ktoré sa uzatvárajú štyrmi skrutkami. 
 
 Napájacie puzdro na tri AA batérie bolo uložené pozdĺžne v zadnej časti krytu. K nemu bol pripevnený zvisle polohovaný USB—Serial modul. Na zadnej stene bol taktiež vytvorený otvor na rozhranie Micro USB.
 
 Okraje hlavného plošného spoja boli upravené a tvarované tak, aby sa doska mohla prichytiť o jeden z podporných stĺpikov. Následne bola vyvŕtaná diera pre svetelnú indikačnú diódu \linebreak a vytvorený obdĺžnikový otvor pre vypínač. Na prednom paneli boli vyvŕtané diery s väčším priemerom na vsadenie troch laboratórnych konektorov.
 
-Nakoniec boli všetky komponenty upevnené obojstrannou lepiacou páskou. Rozširovacie moduly, vypínač a konektory boli zapojené do riadiacej dosky či už priamo alebo prepojovacími káblami. Prepojovacie káble museli byť vyrobené na mieru kvôli nevšedným požiadavkám na dĺžku a počet vodičov a tvar prípojky.
+Nakoniec boli všetky komponenty upevnené obojstrannou lepiacou páskou. Rozširovacie moduly, vypínač a konektory boli zapojené do riadiacej dosky či už priamo alebo prepojovacími káblami. Prepojovacie káble museli byť vyrobené na mieru kvôli požiadavkám na dĺžku a počet vodičov a tvar prípojky.
 
 
 \begin{figure}[!ht]
@@ -509,25 +510,28 @@ Každý stupeň práce so signálom má za úlohu riešiť samostatný problém 
 \end{enumerate}
 
 \subsubsection{Hardvérové programovanie}
-Prvá fáza sa zaoberá primárnym filtrovaním na úrovni mikroprocesora. Pozostáva z potláčania sieťovového brumu, kolísania nulovej línie a iných artefaktov (viď. podkapitolu \textit{2.5 Signál \linebreak a jeho spracovanie}). Na tento účel boli použité zdrojové kódy z voľne dostupného internetového repozitára \footnote{Repozitár sa nachádza na adrese https://github.com/tttapa/Filters a vlastníkom je Pieter Pas.}, keďže návrh filtrov nespadá do sféry pôsobnosti tejto odbornej práce. V kóde sú implementované knižnice filtrov FIR a IIR. Obsahuje taktiež matematicky odvodené koeficienty, ktoré určujú charakteristiky filtrov zvlášť prispôsobené k elektrokardiografii. Softvér bol doplnený o algoritmus, ktorý popri filtrovaní súčasne riadi vysokorýchlostné zaznamenávanie údajov na pripojenú pamäťovú kartu MicroSD.
+Prvá fáza sa zaoberá primárnym filtrovaním na úrovni mikroprocesora. Pozostáva z potláčania sieťovového brumu, kolísania nulovej línie a iných artefaktov (viď. podkapitolu \textit{2.5 Signál \linebreak a jeho spracovanie}). Na tento účel boli použité zdrojové kódy z voľne dostupného internetového repozitára \footnote{Repozitár sa nachádza na adrese https://github.com/tttapa/Filters a vlastníkom je Pieter Pas.}, keďže návrh filtrov nespadá do sféry pôsobnosti tejto odbornej práce. V kóde sú implementované knižnice filtrov FIR a IIR. Obsahuje taktiež matematicky odvodené koeficienty, ktoré určujú charakteristiky filtrov zvlášť prispôsobené elektrokardiografii. Softvér bol doplnený o algoritmus, ktorý popri filtrovaní súčasne riadi vysokorýchlostné zaznamenávanie údajov na pripojenú pamäťovú kartu MicroSD.
 
 \subsubsection{Grafické používateľské rozhranie (GUI)}
 Na zobrazenie zmeranej krivky EKG existujú tri možnosti. Jedna z nich je mechanický spôsob, čiže tepelná tlač na papier. Ďalšie sú integrovaná obrazovka alebo externé zariadenie s displejom. Najuniverzálnejšie a najekonomickejšie riešenie je signál spracovať na počítači. Pri voľbe vhodného prostredia na tvorbu softvéru sa prihliadalo i na multiplatformovosť.
 
 Processing 3 je voľne dostupná grafická knižnica a vývojové prostredie (IDE), ktoré disponuje prostriedkami umožňujúcimi vykresľovanie grafov a priamu komunikáciou s mikrokontrolérom. Processing funguje na základe programovacieho jazyka Java a obsahuje ďalšie rozšírené technické a matematické nástroje. 
 
-Sériová komunikácia prebieha pomerne vysokou prenosovou rýchlosťou 115200 bps pre dosíahnutie čo najväčšieho rozlíšenia. Prichádzajúce údaje odchytáva \textbf{sledovač udalostí (event listener)}, ktorý má za úlohu ich transformovať do rozsahu zobraziteľného.
+Sériová komunikácia prebieha pomerne vysokou prenosovou rýchlosťou 115200 bps pre dosíahnutie čo najväčšieho rozlíšenia. Prichádzajúce údaje odchytáva \textbf{sledovač udalostí (event listener)}, ktorý má za úlohu ich transformovať do zobraziteľného rozsahu.
 
 O samotné vykresľovanie grafu sa stará natívna funkcia \textbf{draw()}, ktorá sa opakovane vykonáva počas behu programu. Definuje nové súradnice krivky grafu a spája ich s posledným známym bodom grafu.
 
 Grafické užívateľské rozhranie zabezpečuje knižnica ControlP5 zvlášť určená pre vývojové prostredie Processing. Úpravou a rozšírením jej tried boli na mieru vytvorené ovládacie prvky.  
 
-Funkcie programu zahŕňajú výber vstupného portu, ukladanie snímok grafu a exportovanie zaznamenaných hodnôt. Výber portu funguje pomocou rozotváracej ponuky (dropdown menu), ktorá obsahuje všetky dostupné rozhrania. Po zvolení portu, ak bol úspešne otvorený, sa začne vykresľovať graf na obrazovke. Naľavo od tejto lišty sa nachádza tlačidlo na zosnímanie obrazovky. Snímka sa následne uloží do predvoleného adresára. Tretia možnosť je nahrávanie meraných hodnôt prostredníctvom prepínača ,,REC". Po ukončení záznamu - opätovným kliknutím na prepínač - sa vygeneruje súbor CSV.
+Funkcie programu zahŕňajú výber vstupného portu, ukladanie snímok grafu a exportovanie zaznamenaných hodnôt. Výber portu funguje pomocou rolovacieho menu (dropdown menu), ktoré obsahuje všetky dostupné rozhrania. Po zvolení portu, ak bol úspešne otvorený, sa začne vykresľovať graf na obrazovke. Naľavo od tejto lišty sa nachádza tlačidlo na zosnímanie obrazovky. Snímka sa následne uloží do predvoleného adresára. Tretia možnosť je nahrávanie meraných hodnôt prostredníctvom prepínača ,,REC". Po ukončení záznamu - opätovným klik-nutím na prepínač - sa vygeneruje súbor CSV.
+
+\subsubsection{Webová stránka}
+Webová stránka bola vytvorená pomocou frontendového nástroja Bootstrap. Je plne responzívna, prispôsobuje sa obrazovke na mobilných zariadeniach. Okrem poskytovania základných kontaktných údajov a stručného popisu projektu umožňuje aj vizualizáciu zaznamenaných dát EKG. Pracuje so súborovým formátom CSV, ktorý je totožný s typom exportovaným z počítačovej aplikácie a ukladaným na SD kartu z mikročipu. Po nahratí súboru sa dáta posielajú prostredníctvom JavaScript API internetovej službe na vyhotovenie grafu\footnote{Oficiálna stránka API je https://canvasjs.com/}, ktorý sa nakoniec zobrazí používateľovi. 
 
 
 \newpage
 \section{Výsledky a diskusia}
-Komplexná odborná práca sa zaoberá získavaním, zhromažďovaním a spracúvaním somatických ukazovateľov, presnejšie elektrických impulzov srdca. Prezentuje funkčné riešenie prejednávanej problematiky a vzťahujúcej sa teórie. Výstupy projektu sú výsledkom niekoľkomesačného vý-skumu, dizajnu, prototypovania a testovania rôznych technických alternatív.
+Komplexná odborná práca sa zaoberá zhotovením zariadenia na získavanie, zhromažďovanie a spracúvanie somatických ukazovateľov, presnejšie elektrických impulzov srdca. Prezentuje funkčné riešenie prejednávanej problematiky a vzťahujúcej sa teórie. Výstupy projektu sú výsled-kom niekoľkomesačného výskumu, dizajnu, prototypovania a testovania rôznych technických alternatív.
 
 Výstupy práce sú nasledovné:
 \paragraph{\textbf{Kvantitatívne}}
@@ -546,22 +550,23 @@ Výstupy práce sú nasledovné:
 \end{enumerate}
 
 
-\paragraph{Predmetom práce je sledovanie srdcového rytmu.} Kombináciou rôznych postupov a úprav vzniká žiadaný graf. Prvotne musí zosnímaný signál prejsť niekoľkonásobným zosilnením. Následne je prevedený do digitálnej podoby na ďalšie spracovanie. Prijíma ho signálový procesor, ktorý má na starosť odfiltrovať rušivé činitele. Tento účinok sa dosahuje za pomoci číslicových filtrov a matematických modelov. Výsledok sa buď priamo zapisuje na dátový nosič  alebo sa prenáša do počítača. V prípade druhej alternatívy dáta v reálnom čase vykresľuje počítačová aplikácia. Taktiež rožširuje možnosti práce so signálom vďaka dostupným programovým prostriedkom. Užívatelia budú mať príležitosť dáta prehliadať a zdieľať cez webové rozhranie.
+\paragraph{Úlohou zariadenia je sledovanie srdcového rytmu.} Kombináciou rôznych postupov a úprav vzniká žiadaný graf. Prvotne musí zosnímaný signál prejsť niekoľkonásobným zosilnením. Následne je prevedený do digitálnej podoby na ďalšie spracovanie. Prijíma ho signálový procesor, ktorý má na starosti odfiltrovanie rušivých činiteľov. Tento účinok sa dosahuje za pomoci číslicových filtrov a matematických modelov. Výsledok sa buď priamo zapisuje na dátový nosič, alebo sa prenáša do počítača. V prípade druhej alternatívy dáta v reálnom čase vykresľuje počítačová aplikácia. Taktiež rožširuje možnosti práce so signálom vďaka dostupným programovým prostriedkom. Užívatelia budú mať príležitosť dáta prehliadať a zdieľať cez webové rozhranie.
 
 Vizuálna schéma popísaného postupu je uvedená nižšie v podobe blokového diagramu. \linebreak Vstupné údaje sú na ňom znázornené šípkou v ľavom hornom rohu. Šípka smeruje k prvému rámcu (bloku), ktorý zastupuje samostatný krok v reťazi úkonov. Tento sled úkonov zabezpečuje premenu údajov na informácie a vedie k výstupným bodom, akými sú napríklad pamäťová karta a grafické rozhranie počítačovej alebo webovej aplikácie.
 
 
-
+\newpage
 \begin{figure}[!ht]
 \begin{center}
 \includegraphics[scale=0.7]{flowchart}
-\caption{Bloková schéma spracovania EKG}
+\caption{Bloková schéma spracovania signálu}
 \end{center}
 \end{figure}
 
-\newpage
+\bigskip
 
-\paragraph{Bezpečnosť}
+\textbf{Bezpečnosť}
+
 Zariadenie nie je určené na masové použitie, preto jeho bezpečnosť nie je oficiálne zaručená. Pri návrhu boli zohľadnené možné riziká pri prevádzke zariadenia a implementovali sa primerané bezpečnostné opatrenia. 
 
 Najdôležitejšou ochranou je vylúčenie napájania laboratórnym zdrojom. Pri nesprávnom nastavení alebo poruche zdroja by sa nebezpečný prúd mohol dostať do kontaktu s telom vyšetro-vaného. Aby sa podobnému scenáru zabránilo, obvod napájajú tri AA články (4,5V). 
@@ -577,19 +582,21 @@ Prípojné miesta tela na EKG:
 	\item Hrudný zvod č. 2 - okrem vysokoimpedančného vstupu zosilňovača je tiež spojený \linebreak s výstupom cez \SI{100}{\kilo\ohm} rezistor. Treba si však uvedomiť, že tento prúd ani pri maximálnych hodnotách (4,5V) nepresahuje 0,045mA.
 \end{itemize}
 
-Bezpečnosť zariadenia by sa ďalej mohlo vylepšiť oddelením optočlánkom. V tom prípade by sa dosiahla úplná separácia vstupných elektród od elektrickej časti.
+Bezpečnosť zariadenia by sa ďalej mohla vylepšiť oddelením optočlánkom. V tom prípade by sa dosiahla úplná separácia vstupných elektród od elektrickej časti.
 \newpage
 
 \textbf{Očistenie signálu od nežiaducich faktorov}
 
 Vďaka kombinácii hardvérových a softvérových filtrov sa podarilo dosiahnuť vyhovujúci výsledok. Signál prechádza viacstupňovým filtrovaním. V rade filtrov  vystupuje Butterworth, lineárny filter a dve pásmové priepuste. 
 
-Ďalšie spôsoby znižovania dopadu rušivých faktorov sú mechanického druhu. Pri meraní máme možnosť aplikovať vodivý gél, ktorý znižuje odpor medzi pokožkou a snímacími elektródami. Pokojová poloha v ľahu, dĺžka a tienenie káblov a zdroj napájania taktiež dokážu ovplyvniť konečný signál.
+Ďalšie spôsoby znižovania dopadu rušivých faktorov sú mechanického druhu. Pri meraní máme možnosť aplikovať vodivý gél, ktorý znižuje odpor medzi pokožkou a snímacími elek-tródami. Pokojová poloha v ľahu, dĺžka a tienenie káblov a zdroj napájania taktiež dokážu ovplyvniť konečný signál.
 
-Spoločným efektom vymenovaných prevenčných prostriedkov je eliminácia artefaktov rôzneho pôvodu. Na grafoch nižšie sa znázorňuje podoba signálu pred procesom filtrovania a po ňom.
+Spoločným efektom vymenovaných prevenčných prostriedkov je eliminácia artefaktov \linebreak rôzneho pôvodu. Na grafoch nižšie je zobrazená podoba signálu pred procesom filtrovania \linebreak a po ňom.
 
 \begin{figure}[!ht]
 \begin{center}
+\includegraphics[scale=0.25]{ekg-emi}
+\caption{Krivka EKG pred filtrovaním}
 \includegraphics[scale=0.25]{ekg-chart}
 \caption{Krivka EKG po viacstupňovom filtrovaní}
 \includegraphics[scale=0.25]{ekg-artefact}
@@ -597,25 +604,31 @@ Spoločným efektom vymenovaných prevenčných prostriedkov je eliminácia arte
 \end{center}
 \end{figure}
 
+\newpage
+
 \textbf{Prínosy projektu a možnosti využitia}
 
-Projekt svedčí o tom, že aj pomerne zložité oblasti, ako elektrokardiografia, môžu byť relevantné na stredoškolskej úrovni. Jednou zo sfér, kde môže byť úžitočný je práve vzdelávanie. Práca sa zaoberá teóriou EKG a jej praktickým využitím. Demonštruje základné princípy fungovania dôležitého druhu zdravotníckeho príslušenstva.
+Projekt svedčí o tom, že aj pomerne zložité oblasti, ako elektrokardiografia, môžu byť rele-vantné pre stredoškolskú úroveň. Jednou zo sfér, kde môže byť úžitočný je práve vzdelávanie. Práca sa zaoberá teóriou EKG a jej praktickým využitím. Demonštruje základné princípy fungovania dôležitého druhu zdravotníckeho príslušenstva.
 
-Okrem toho umožňuje laikom sledovať pulz, odhaliť prítomnosť arytmií v pohodlí domáceho prostredia. Tým otvára nové možnosti na nelekárske použitie EKG. V pripade potreby sa výsledky dajú jednoducho zdieľať s odborníkom cez internet.
-
+Okrem toho umožňuje laikom sledovať pulz, odhaliť prítomnosť arytmií v pohodlí domáceho prostredia. Tým otvára nové možnosti na nelekárske použitie EKG. V prípade potreby sa výsledky dajú jednoducho zdieľať s odborníkom cez internet.
+\\
+\bigskip
 
 \textbf{Obmedzenia riešenia}
 
 Riešenie má samozrejme aj svoje nevýhody. Jedným z hlavných nevýhod je limitovanie počtu zvodov na jeden, čo výrazne obmedzuje množstvo informácií potrebných na stanovanie presnej diagnózy. Ďalej, keďže je hardvér minimalistický, rozlíšenie a kvalita merania nedosahuje úroveň komerčných lekárskych prístrojov.
 \\
-\\
+\bigskip
+
 \textbf{Diskusia}
 
 V akademickej sfére existuje nemálo študií a odborných prác, ktoré sa venujú práve téme elektrokardiografie. Toto medicínske odvetvie prešlo od jeho založenia pred vyše sto rokmi mnohými výraznými zmenami a vylepšeniami vďaka rozsiahlemu výskumu.
 
 Tento projekt je praktického charakteru, nesnaží sa prekonať súčasné technológie a poznatky, ale prezentuje ich principiálnu podstatu dostupnými prostriedkami.  Zadané ciele boli splnené: (1) \textit{spracovanie vzťahujúcej sa teórie}, (2) \textit{návrh a konštrukcia prístroja EKG}, (3) \textit{programovanie mikrokontroléra}, (4) \textit{digitálne spracovanie údajov}.
 
-Opísané riešenie merania EKG úvodným požiadavkam vyhovelo. Všetky nálezy sú zreprodukovateľné na základe dokumentácie pracovného postupu. Skutočnú výzvu týkajúcu sa danej problematiky však predstavuje navrhnutie prístroja spoľahlivého za každých okolností. Splnenie takéhoto nároku si vyžaduje robustné medicínske riešenie a naďalej zostáva mimo dosahu používateľských aparátov - či už smart hodiniek alebo dosiek Arduino.
+Opísané riešenie merania EKG úvodným požiadavkam vyhovelo. Všetky nálezy sú zreprodukovateľné na základe dokumentácie pracovného postupu. Skutočnú výzvu týkajúcu sa danej problematiky však predstavuje navrhnutie prístroja spoľahlivého za každých okolností. Splnenie takéhoto nároku si vyžaduje robustnejšie medicínske riešenie a naďalej zostáva mimo dosahu používateľských aparátov - či už smart hodiniek alebo dosiek Arduino.
+
+Funkcionalita EKG napriek tomu v poslednej dobe nadobúda popularitu a čoraz častejšie sa stáva súčasťou nositeľných zariadení, ktoré sledujú a vyhodnocujú každý náš krok. Stávame sa svedkami prekrývania záujmov technologického sektora a fitness priemyslu. Vďaka novým technologickým vymoženostiam sú nám informácie o zdraví a každodenných pohybových aktivitách dostupnejšie ako kedykoľvek predtým. Voľba, či sa vydáme smerom k zdravšej životospráve, je v našich rukách.
 
 
 
@@ -623,7 +636,7 @@ Opísané riešenie merania EKG úvodným požiadavkam vyhovelo. Všetky nálezy
 \section{Závery práce}
 Príležitosť na učenie sa ponúka každou ľudskou interakciou. Nové poznatky sa preverujú a ďalej utvrdzujú presadením do praxe. Je všeobecne známe, že sa človek najefektívnejšie učí skúšaním, z vlastných úspechov a chýb. Práve tieto vzostupy a pády sprevádzajúce naše pokusy nás večne ženú dopredu po ceste celoživotného vzdelávania.
 
-Táto odborná práca možno nie je jediná svojho druhu, ale je výnimočná svojou mnoho-strannosťou. Zjednocuje diametrálne odlišné oblasti - zdravotníctvo a informatiku - a svedčí o prospechu ich pospolitosti. Čerpá z vedomostných rezerv obidvoch odborov a opakovane poukazuje na množstvo križovatiek, ktoré ich spájajú. Práve tieto spoločné body ustanovujú predpoklady interdisciplinárneho dialógu.
+Táto odborná práca možno nie je jediná svojho druhu, ale je výnimočná svojou mnoho-strannosťou. Zjednocuje diametrálne odlišné oblasti - zdravotníctvo a informatiku - a svedčí o prospechu ich prepojenia. Čerpá z vedomostných rezerv obidvoch odborov a opakovane poukazuje na množstvo križovatiek, ktoré ich spájajú. Práve tieto spoločné body ustanovujú predpoklady interdisciplinárneho dialógu.
 
 Kľúčovou motiváciou k výberu témy bola i potreba upriamiť pozornosť na dôležitú rolu, ktorú hrá prevencia v zdraví jedinca. Napriek tomu, že mnohým chorobám sa predísť nedá, správna životospráva má ďalekosiahly dopad na imunitu a obranyschopnosť tela. Nepripúšťajme \linebreak si apatickosť, neoddávajme sa škodlivým návykom, veď zodpovednosť za životný štýl aký vedie-me nesieme sami.
 
@@ -676,5 +689,44 @@ A lot can be learned from such a comprehensive, theoretically and practically ch
 \begin{itemize}
 	\item Fotodokumentácia projektu
 \end{itemize}
+\subsection*{Príloha C}
+\begin{itemize}
+	\item Schéma zapojenia Arduina pri nahrávaní zavádzača
+\end{itemize}
+
+
+\newpage 
+\subsection*{Príloha B}
+Fotodokumentácia projektu
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[scale=0.3]{vyvojova-doska}
+\\1. prototyp: Zosilňovací obvod na vývojovej doske
+\end{center}
+\end{figure}
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[scale=0.08]{spajkovatelna-doska-1}
+\includegraphics[scale=0.08]{spajkovatelna-doska-2}
+\\2. prototyp: Spájkovaný obvod
+\end{center}
+\end{figure}
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[scale=0.07]{skatulka-otvorena}
+\includegraphics[scale=0.072]{skatulka-zatvorena}
+\\3. prototyp: Finálny obvod
+\end{center}
+\end{figure}
+
+\newpage
+\subsection*{Príloha C}
+Schéma zapojenia Arduina pri nahrávaní zavádzača
+\begin{figure}[!ht]
+\includegraphics[scale=70]{BreadboardAVR}
+\end{figure}
+
 
 \end{document}
