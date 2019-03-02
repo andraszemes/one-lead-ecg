@@ -18,17 +18,6 @@ void serialEvent (Serial activePort)
     if(recordToggleState == true && file != null) {
       file.println(inString);
     }
-    
-    // BPM calculation check
-    if (inByte > threshold && belowThreshold == true)
-    {
-      calculateBPM();
-      belowThreshold = false;
-    }
-    else if(inByte < threshold)
-    {
-      belowThreshold = true;
-    }
   }
 }
  
@@ -70,7 +59,7 @@ void mousePressed() {
   if(recordToggle.isMouseOver()) {  
     recordToggleState = !recordToggleState;
     if(recordToggleState == true) {
-      file = createWriter("record-" + System.currentTimeMillis() + ".txt");
+      file = createWriter("record-" + System.currentTimeMillis() + ".csv");
     } else {
       file.flush();
       file.close();
