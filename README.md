@@ -42,15 +42,9 @@ heart_rate_monitor.exe
 * [Bootstrap](https://getbootstrap.com/) - The web framework used
 * [CanvasJS](https://canvasjs.com/) - Graph plotting API on the web
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
 ## Authors
 
-* **András Zemes** - *Initial work* - [andraszemes](https://github.com/andraszemes)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **András Zemes** - *Project developer* - [andraszemes](https://github.com/andraszemes)
 
 ## License
 
