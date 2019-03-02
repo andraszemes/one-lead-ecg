@@ -52,6 +52,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
+* [Scott W harden](https://www.swharden.com/wp/)
 * [Casey Kuhns](https://github.com/sparkfun/AD8232_Heart_Rate_Monitor)
 * [Pieter Pas](https://github.com/tttapa/Filters)
 
