@@ -396,7 +396,7 @@ Hlavným nedostatkom tohto návrhu bola všeobecná nespoľahlivosť a výskyt e
 \end{itemize}
 Signál bol meraný a spracúvaný za pomoci Arduina UNO. Výstup zo zosilňovača bol spojený \linebreak s analógovým pinom Arduina A0 (ADC). Vykresľovanie krivky EKG sa zrealizoval zabudova-ným nástrojom programu Arduino IDE, ktorý sa nazýva Serial Plotter.
 
-Zobrazovaný signál bol do veľkej miery znečistený, preto bolo nutné použiť softvérový filter. Najjednoduchší filter vhodný na úlohu bol súčasťou oficiálnej knižnice Filters.h. \footnote{Dokumentácia k spomínanej knižnici je dostupná na webovom sídle \textit{playground.arduino.cc/Code/Filters}}
+Zobrazovaný signál bol do veľkej miery znečistený, preto bolo nutné použiť softvérový filter. Najjednoduchší filter vhodný na úlohu bol súčasťou oficiálnej knižnice Filters.h. \footnote{Dokumentácia knižnice je dostupná na webovom sídle [15] \textit{https://playground.arduino.cc/Code/Filters}}
 
 Nasledovný kód je implementáciou dolnopriepustného filtra RC, ktorý slúži na vyhladenie signálu. Filter je nastavený na frekvenciu 50 Hz. Obsahuje deklaráciu premenných a inicializáciu triedy FilterOnePole.
 
@@ -420,7 +420,7 @@ Výsledný produkt zahŕňa niekoľko dôležitých komponentov. Ústrednú čas
 Mikroprocesor je centrálnym prvkom zariadenia. Zodpovedá za digitalizáciu a spracúvanie príchodzieho signálu, riadenie a koordináciu jednotlivých elektrických článkov v rámci aplikácie a odovzdávanie informácií počítaču.
 
 Pri výbere mikroprocesora sa prihliadalo na výkon, úspornosť, počet vývodov a na veľkosť dostupnej programovej pamäte. Nakoniec sa uprednostnil 8-bitový mikroradič Atmega328P z rodiny megaAVR od firmy Atmel. Vyhovel všetkým požiadavkám projektu, je vhodný na úlohu DSP a disponuje kvalitnou dokumentáciou i komunitnou podporou zo strany vývojárov. 
-Podrobnosti o mikroprocesore sú opísané v tabuľke nižšie.\footnote{Informácie boli čerpané zo stránky výrobcu \textit{www.microchip.com/wwwproducts/en/ATmega328p}}
+Podrobnosti o mikroprocesore sú opísané v tabuľke nižšie.\footnote{Informácie boli čerpané zo stránky výrobcu [11] \textit{https://www.microchip.com/wwwproducts/en/ATmega328p}}
 
 \begin{table}[htb]
 \begin{tabular}{ll}
@@ -481,7 +481,7 @@ Naposledy boli prispájkované napájacie a vstupno-výstupné piny pre rozširo
 
 \newpage
 \subsubsection{Konštrukcia zariadenia}
-Posledným krokom v práci s hradvérom bolo umiestniť všetky komponenty do škatuľky. Na tento účel padla voľba na univerzálny kryt HM-1553DGY\footnote{Technický výkres krytu so špecifikáciami a rozmermi sa nachádza na stránke distribútora \\ https://www.tme.eu/sk/Document/bd6787db93f837d8972974413558d5cd/HM-1553DBK.pdf} od Hammmondu s rozmermi \linebreak 89x147x24 mm v tmavosivom prevedení. Výrobný materiál je plast ABS. Kryt sa skladá \linebreak z troch častí: z predného panelu a z vrchnej a spodnej časti, ktoré sa uzatvárajú štyrmi skrutkami. 
+Posledným krokom v práci s hradvérom bolo umiestniť všetky komponenty do škatuľky. Na tento účel padla voľba na univerzálny kryt HM-1553DGY\footnote{Technický výkres krytu so špecifikáciami a rozmermi sa nachádza na stránke distribútora [16] \\ https://www.tme.eu/sk/Document/bd6787db93f837d8972974413558d5cd/HM-1553DBK.pdf} od Hammmondu s rozmermi \linebreak 89x147x24 mm v tmavosivom prevedení. Výrobný materiál je plast ABS. Kryt sa skladá \linebreak z troch častí: z predného panelu a z vrchnej a spodnej časti, ktoré sa uzatvárajú štyrmi skrutkami. 
 
 Napájacie puzdro na tri AA batérie bolo uložené pozdĺžne v zadnej časti krytu. K nemu bol pripevnený zvisle polohovaný USB—Serial modul. Na zadnej stene bol taktiež vytvorený otvor na rozhranie Micro USB.
 
@@ -510,7 +510,7 @@ Každý stupeň práce so signálom má za úlohu riešiť samostatný problém 
 \end{enumerate}
 
 \subsubsection{Hardvérové programovanie}
-Prvá fáza sa zaoberá primárnym filtrovaním na úrovni mikroprocesora. Pozostáva z potláčania sieťovového brumu, kolísania nulovej línie a iných artefaktov (viď. podkapitolu \textit{2.5 Signál \linebreak a jeho spracovanie}). Na tento účel boli použité zdrojové kódy z voľne dostupného internetového repozitára \footnote{Repozitár sa nachádza na adrese https://github.com/tttapa/Filters a vlastníkom je Pieter Pas.}, keďže návrh filtrov nespadá do sféry pôsobnosti tejto odbornej práce. V kóde sú implementované knižnice filtrov FIR a IIR. Obsahuje taktiež matematicky odvodené koeficienty, ktoré určujú charakteristiky filtrov zvlášť prispôsobené elektrokardiografii. Softvér bol doplnený o algoritmus, ktorý popri filtrovaní súčasne riadi vysokorýchlostné zaznamenávanie údajov na pripojenú pamäťovú kartu MicroSD.
+Prvá fáza sa zaoberá primárnym filtrovaním na úrovni mikroprocesora. Pozostáva z potláčania sieťovového brumu, kolísania nulovej línie a iných artefaktov (viď. podkapitolu \textit{2.5 Signál \linebreak a jeho spracovanie}). Na tento účel boli použité zdrojové kódy z voľne dostupného internetového repozitára \footnote{Repozitár sa nachádza na adrese [14] https://github.com/tttapa/Filters}, keďže návrh filtrov nespadá do sféry pôsobnosti tejto odbornej práce. V kóde sú implementované knižnice filtrov FIR a IIR. Obsahuje taktiež matematicky odvodené koeficienty, ktoré určujú charakteristiky filtrov zvlášť prispôsobené elektrokardiografii. Softvér bol doplnený o algoritmus, ktorý popri filtrovaní súčasne riadi vysokorýchlostné zaznamenávanie údajov na pripojenú pamäťovú kartu MicroSD.
 
 \subsubsection{Grafické používateľské rozhranie (GUI)}
 Na zobrazenie zmeranej krivky EKG existujú tri možnosti. Jedna z nich je mechanický spôsob, čiže tepelná tlač na papier. Ďalšie sú integrovaná obrazovka alebo externé zariadenie s displejom. Najuniverzálnejšie a najekonomickejšie riešenie je signál spracovať na počítači. Pri voľbe vhodného prostredia na tvorbu softvéru sa prihliadalo i na multiplatformovosť.
@@ -665,15 +665,16 @@ A lot can be learned from such a comprehensive, theoretically and practically ch
 \item BÓRIKOVÁ, Ivana. 2016. Funkčné vyšetrenie respiračného, kardiovaskulárneho a močového systému. Portál Jesseniovej lekárskej fakulty Univerzity Komenského. ISSN 1337-7396.
 \item MIŠČÍK, Peter. 2011. Zpracování elektrokardiogramu. Vysoké učení technické v Brně. 
 \item TUKA, Marián. 2015. Potlačení aditivního šumu. Vysoké učení technické v Brně. 
-\item www.kardiolog.sk/o-srdci/
-\item www.techmed.sk/akcny-potencial/
-\item www.wikiskripta.eu/w/Rušení\_biosignálů\_a\_artefakty
-\item www.swharden.com/wp/2016-08-08-diy-ecg-with-1-op-amp/
-\item www.arduino.cc/en/Tutorial/ArduinoToBreadboard
-\item www.microchip.com/wwwproducts/en/ATmega328p
-\item techfun.sk/produkt/ft232rl-programator-s-mini-usb-5v-3-3v/
-\item techfun.sk/produkt/slot-pre-micro-sd-kartu/
-\item github.com/tttapa/Filters
+\item HARDEN, Scott. DIY ECG with 1 op-amp. SWHarden, [cit. 10. nov. 2018]. \\ URL: www.swharden.com/wp/2016-08-08-diy-ecg-with-1-op-amp/
+\item BLAHÚT, Peter. Akčný potenciál. TECHmED, [cit. 19. dec. 2018]. \\ 
+URL: https://www.techmed.sk/akcny-potencial/
+\item HERMAN, Petř. Rušení biosignálů a artefakty. Wikisktripta,  [cit. 19. dec. 2018]. \\ URL: www.wikiskripta.eu/w/Rušení\_biosignálů\_a\_artefakty
+\item Microchip Technology Inc. ATmega328P Device Overview. [cit. 14. jan. 2019]. \\ URL: https://www.microchip.com/wwwproducts/en/ATmega328p
+\item KURNOTA, Marek. FT232RL programátor. Techfun, [cit. 21. jan. 2019]. \\ URL: https://techfun.sk/produkt/ft232rl-programator-s-mini-usb-5v-3-3v/
+\item KURNOTA, Marek. Slot pre Micro SD kartu. Techfun, [cit. 21. jan. 2019]. \\ URL: https://techfun.sk/produkt/slot-pre-micro-sd-kartu/
+\item PAS, Pieter. Filters. Github, [cit. 31. jan. 2019]. \\ URL: https://github.com/tttapa/Filters
+\item A realtime digital signal processing (DSP) library. Arduino, [cit. 4. feb. 2019]. \\ URL: https://playground.arduino.cc/Code/Filters
+\item Hammond Manufacturing. HM-1553DBK. TME, [cit. 14. feb. 2019] URL: \\https://www.tme.eu/sk/Document/bd6787db93f837d8972974413558d5cd/HM-1553DBK.pdf
 \end{enumerate}
 
 \newpage
