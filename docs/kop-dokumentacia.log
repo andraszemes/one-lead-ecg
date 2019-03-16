@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  1 MAR 2019 18:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  16 MAR 2019 18:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -904,22 +904,25 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box51
 \enitdp@description=\count298
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
 (./kop-dokumentacia.aux)
 \openout1 = `kop-dokumentacia.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 25.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -1111,36 +1114,36 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 \c__siunitx_mathsf_int=\count306
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 24
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 25
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 24
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 25
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 24
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 25
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 24
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 25
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
 \c__siunitx_mathtt_int=\count307
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -1175,20 +1178,20 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
 
 
 LaTeX Warning: No \author given.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
+ Make it at least 27.09387pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -1199,151 +1202,180 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--53
+Underfull \hbox (badness 10000) in paragraph at lines 51--54
 
  []
 
-[2
+[1
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 104.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 105.
 
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 104.
- [3] [4] [5]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 105.
+ [2] [3] [4]
 (./kop-dokumentacia.toc)
 \tf@toc=\write3
 \openout3 = `kop-dokumentacia.toc'.
 
- [6]
-Underfull \hbox (badness 3179) in paragraph at lines 136--137
+ [5]
+Overfull \hbox (1.86024pt too wide) in paragraph at lines 140--141
+[][]\OT1/ptm/m/n/12 Ludsk[]e telo je z[]azra[]cn[]y []ziv[]y or-ga-niz-mus, kto
+r[]y sa spr[]ava pod[]la z[]akonitost[]^^P pr[]^^Prody a biol[]ogie.
+ []
+
+
+Underfull \hbox (badness 3179) in paragraph at lines 142--143
 \OT1/ptm/m/n/12 erat[]^^Pvne ochore-nia, ktor[]e pa-tria medzi najp[]al[]civej[
 ]sie glob[]alne zdravotn[]^^Pcke probl[]emy.
  []
 
 
-Overfull \hbox (5.5959pt too wide) in paragraph at lines 144--145
+Overfull \hbox (5.5959pt too wide) in paragraph at lines 150--151
 \OT1/ptm/m/n/12 chorob[]am a []zi[]t zdrav[]y, plno-hod-notn[]y []zivot, mus[]^
 ^Pme pozna[]t mo[]zn[]e n[]asledky rizikov[]eho spr[]avania.
  []
 
-[7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 176--179
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 167--170
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--179
+Underfull \hbox (badness 10000) in paragraph at lines 167--170
 
  []
 
-</home/andras/Documents/kop/docs/img/48_img1_b.jpg, id=32, 376.40625pt x 277.03
+</home/andras/Documents/kop/docs/img/48_img1_b.jpg, id=29, 376.40625pt x 277.03
 5pt>
 File: /home/andras/Documents/kop/docs/img/48_img1_b.jpg Graphic file (type jpg)
 
 <use /home/andras/Documents/kop/docs/img/48_img1_b.jpg>
 Package pdftex.def Info: /home/andras/Documents/kop/docs/img/48_img1_b.jpg  use
-d on input line 182.
+d on input line 173.
 (pdftex.def)             Requested size: 263.48257pt x 193.92317pt.
-[9 </home/andras/Documents/kop/docs/img/48_img1_b.jpg>]
-</home/andras/Documents/kop/docs/img/action-potential-voltage.png, id=36, 489.8
+[8 </home/andras/Documents/kop/docs/img/48_img1_b.jpg>]
+</home/andras/Documents/kop/docs/img/action-potential-voltage.png, id=33, 489.8
 3pt x 280.04625pt>
 File: /home/andras/Documents/kop/docs/img/action-potential-voltage.png Graphic 
 file (type png)
 <use /home/andras/Documents/kop/docs/img/action-potential-voltage.png>
 Package pdftex.def Info: /home/andras/Documents/kop/docs/img/action-potential-v
-oltage.png  used on input line 208.
+oltage.png  used on input line 199.
 (pdftex.def)             Requested size: 244.9144pt x 140.02277pt.
- [10 </home/andras/Documents/kop/docs/img/action-potential-voltage.png>]
+ [9 </home/andras/Documents/kop/docs/img/action-potential-voltage.png>]
+Overfull \hbox (2.50024pt too wide) in paragraph at lines 216--217
+\OT1/ptm/m/n/12 a 6 hrudn[]ych zvodov. Ka[]zd[]y zvod je samostatne za-piso-van
+[]y na priebe[]zne sa po-sunuj[]uci []speci[]alny
+ []
+
+
+Overfull \hbox (4.81198pt too wide) in paragraph at lines 218--219
+[]\OT1/ptm/m/n/12 Uk[]a[]ze spr[]avanie srdca a obe-hov[]eho syst[]emu pri n[]a
+mahovej ak-tivite. Na simul[]aciu sa v[]a[]c[]sinou
+ []
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 229.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 220.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 229.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 220.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 229.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 220.
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--233
+Overfull \hbox (6.1719pt too wide) in paragraph at lines 220--222
+\OT1/ptm/m/n/12 doby mon-i-torova-nia sa zvy[]suje pravde-podob-nos[]t n[]alezu
+ nepravidel-nost[]^^P rytmu alebo n[]amahov[]ych
+ []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--222
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 230--258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--258
+
+ []
+
+
+Overfull \hbox (8.30342pt too wide) in paragraph at lines 260--261
+[]\OT1/ptm/m/n/12 Modern[]e pr[]^^Pstroje EKG disponuj[]u zabu-dovan[]ymi mikro
+-pro-ce-sormi, ktor[]e ich ri-a-dia a roz[]siruj[]u
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 240--268
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--268
+Underfull \hbox (badness 10000) in paragraph at lines 286--289
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 240--268
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 240--268
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 240--268
-
- []
-
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 293--296
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 296--301
-
- []
-
-
-Overfull \hbox (1.40848pt too wide) in paragraph at lines 296--301
-\OT1/ptm/m/n/12 Einthoven defi-no-val rozdiely po-tenci[]alov medzi troma p[]ar
-mi horeuve-den[]ych bodov ako z[]akladn[]e
- []
-
-</home/andras/Documents/kop/docs/img/ekg-zvody.png, id=48, 406.51875pt x 455.70
+</home/andras/Documents/kop/docs/img/ekg-zvody.png, id=45, 406.51875pt x 455.70
 25pt>
 File: /home/andras/Documents/kop/docs/img/ekg-zvody.png Graphic file (type png)
 
 <use /home/andras/Documents/kop/docs/img/ekg-zvody.png>
 Package pdftex.def Info: /home/andras/Documents/kop/docs/img/ekg-zvody.png  use
-d on input line 305.
+d on input line 295.
 (pdftex.def)             Requested size: 162.60461pt x 182.27776pt.
-[13 </home/andras/Documents/kop/docs/img/ekg-zvody.png>] [14]
-</home/andras/Documents/kop/docs/img/fir-blokova-schema.png, id=59, 931.48pt x 
+[12 </home/andras/Documents/kop/docs/img/ekg-zvody.png>]
+Overfull \hbox (1.85146pt too wide) in paragraph at lines 315--316
+\OT1/ptm/m/n/12 op[]^^Psan[]eho druhu m[]o[]zeme charak-ter-i-zova[]t pri frekv
+encii 50 Hz s[]^^Pnusov[]eho ru[]senia. Na potla[]cenie
+ []
+
+[13]
+</home/andras/Documents/kop/docs/img/fir-blokova-schema.png, id=56, 931.48pt x 
 392.46625pt>
 File: /home/andras/Documents/kop/docs/img/fir-blokova-schema.png Graphic file (
 type png)
 <use /home/andras/Documents/kop/docs/img/fir-blokova-schema.png>
 Package pdftex.def Info: /home/andras/Documents/kop/docs/img/fir-blokova-schema
-.png  used on input line 344.
+.png  used on input line 334.
 (pdftex.def)             Requested size: 186.2927pt x 78.49185pt.
-</home/andras/Documents/kop/docs/img/iir-blokova-schema.png, id=60, 915.42pt x 
+</home/andras/Documents/kop/docs/img/iir-blokova-schema.png, id=57, 915.42pt x 
 580.1675pt>
 File: /home/andras/Documents/kop/docs/img/iir-blokova-schema.png Graphic file (
 type png)
 <use /home/andras/Documents/kop/docs/img/iir-blokova-schema.png>
 Package pdftex.def Info: /home/andras/Documents/kop/docs/img/iir-blokova-schema
-.png  used on input line 356.
+.png  used on input line 346.
 (pdftex.def)             Requested size: 183.08075pt x 116.03143pt.
- [15 </home/andras/Documents/kop/docs/img/fir-blokova-schema.png> </home/andras
-/Documents/kop/docs/img/iir-blokova-schema.png>]
-Overfull \hbox (0.1845pt too wide) in paragraph at lines 370--371
-\OT1/ptm/m/n/12 Prv[]y pro-to-typ ob-vodu bol vy-roben[]y pod[]la jednoduchej s
-ch[]emy. Po-zost[]aval iba z jedn[]eho opera[]c-
+ [14 </home/andras/Documents/kop/docs/img/fir-blokova-schema.png> </home/andras
+/Documents/kop/docs/img/iir-blokova-schema.png>] [15]
+Overfull \hbox (7.50049pt too wide) in paragraph at lines 370--371
+[]\OT1/ptm/m/n/12 Proces n[]avrhu hardv[]erov[]ych kom-po-nen-tov sa rozdelil d
+o nieko[]lk[]ych f[]az kv[]oli [].
  []
 
 
-Overfull \hbox (5.05362pt too wide) in paragraph at lines 374--375
+Overfull \hbox (5.05362pt too wide) in paragraph at lines 379--380
 []\OT1/ptm/m/n/12 Anal[]ogov[]y v[]ystup bol pripo-jen[]y do 3,5mm mikrof[]onov
 []eho rozhra-nia zvukovej karty po[]c[]^^Pta[]ca.
  []
@@ -1354,37 +1386,27 @@ File: /home/andras/Documents/kop/docs/img/schematic.png Graphic file (type png)
 
 <use /home/andras/Documents/kop/docs/img/schematic.png>
 Package pdftex.def Info: /home/andras/Documents/kop/docs/img/schematic.png  use
-d on input line 381.
+d on input line 386.
 (pdftex.def)             Requested size: 207.17348pt x 182.11995pt.
 [16 </home/andras/Documents/kop/docs/img/schematic.png>]
-Overfull \hbox (3.5199pt too wide) in paragraph at lines 388--390
+Overfull \hbox (3.5199pt too wide) in paragraph at lines 393--395
 \OT1/ptm/m/n/12 v[]yvojovej doske, ktor[]y u[]z rie[]sil v[]a[]c[]sinu ne-dosta
 tkov pr-votn[]eho pro-to-typu. Elek-tron-ick[]e s[]u[]ciastky
  []
 
 [17] [18]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 451.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 458.
 
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 470--475
-
- []
-
-[19]
-Underfull \hbox (badness 3907) in paragraph at lines 484--485
-[]\OT1/ptm/m/n/12 u[]cel padla vo[]lba na uni-verz[]alny kryt HM-1553DGY[] od H
-am-m-mondu s rozmermi
- []
-
+) [19]
 </home/andras/Documents/kop/docs/img/assembly-2.png, id=81, 1041.8925pt x 402.5
 0375pt>
 File: /home/andras/Documents/kop/docs/img/assembly-2.png Graphic file (type png
 )
 <use /home/andras/Documents/kop/docs/img/assembly-2.png>
 Package pdftex.def Info: /home/andras/Documents/kop/docs/img/assembly-2.png  us
-ed on input line 495.
+ed on input line 503.
 (pdftex.def)             Requested size: 312.57016pt x 120.75204pt.
 </home/andras/Documents/kop/docs/img/assembly-1.png, id=82, 653.44125pt x 386.4
 4376pt>
@@ -1392,43 +1414,37 @@ File: /home/andras/Documents/kop/docs/img/assembly-1.png Graphic file (type png
 )
 <use /home/andras/Documents/kop/docs/img/assembly-1.png>
 Package pdftex.def Info: /home/andras/Documents/kop/docs/img/assembly-1.png  us
-ed on input line 496.
+ed on input line 504.
 (pdftex.def)             Requested size: 196.03387pt x 115.93402pt.
+
 [20 </home/andras/Documents/kop/docs/img/assembly-2.png> </home/andras/Document
 s/kop/docs/img/assembly-1.png>]
-Overfull \hbox (2.77263pt too wide) in paragraph at lines 518--519
+Underfull \hbox (badness 1189) in paragraph at lines 511--512
+\OT1/ptm/m/n/12 zo-bra-zo-va-nia, vy-hod-no-co-v-a-nia a eventu[]alnej pou[]zit
+e[]lnosti sign[]alu zohr[]avaj[]u pro-gramov[]e
+ []
+
+
+Overfull \hbox (2.77263pt too wide) in paragraph at lines 526--527
 []\OT1/ptm/m/n/12 Processing 3 je vo[]lne dos-tupn[]a grafick[]a kni[]znica a v
 []yvojov[]e prostredie (IDE), ktor[]e disponuje
  []
 
 
-Overfull \hbox (2.04007pt too wide) in paragraph at lines 522--523
+Overfull \hbox (2.04007pt too wide) in paragraph at lines 530--531
 []\OT1/ptm/m/n/12 O samotn[]e vykres[]lovanie grafu sa star[]a nat[]^^Pvna funk
 -cia \OT1/ptm/b/n/12 draw()\OT1/ptm/m/n/12 , ktor[]a sa opako-vane vykon[]ava
  []
 
-[21]
-Overfull \hbox (1.87598pt too wide) in paragraph at lines 529--530
-\OT1/ptm/m/n/12 Webov[]a str[]anka bola vytvoren[]a po-mo-cou fron-tendov[]eho 
-n[]astroja Boot-strap. Je plne re-sponz[]^^Pvna,
- []
-
-
-Overfull \hbox (5.34215pt too wide) in paragraph at lines 529--530
-\OT1/ptm/m/n/12 lik[]acie a uk-ladan[]ym na SD kartu z mikro[]cipu. Po nahrat[]
-^^P s[]uboru sa d[]ata posielaj[]u prostredn[]^^Pctvom
- []
-
-
-Overfull \hbox (9.13092pt too wide) in paragraph at lines 529--530
-\OT1/ptm/m/n/12 JavaScript API in-ter-ne-tovej slu[]zbe na vy-ho-tove-nie grafu
-[], ktor[]y sa nakoniec zo-braz[]^^P pou[]z[]^^Pvate[]lovi. 
- []
-
-[22]
-Overfull \hbox (2.77487pt too wide) in paragraph at lines 534--535
+[21] [22]
+Overfull \hbox (2.77487pt too wide) in paragraph at lines 542--546
 \OT1/ptm/m/n/12 funk[]cn[]e rie[]senie pre-jedn[]avanej prob-lematiky a vz[]tah
 uj[]ucej sa te[]orie. V[]ystupy pro-jektu s[]u v[]ysled-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 542--546
+
  []
 
 [23]
@@ -1438,10 +1454,10 @@ File: /home/andras/Documents/kop/docs/img/flowchart.png Graphic file (type png)
 
 <use /home/andras/Documents/kop/docs/img/flowchart.png>
 Package pdftex.def Info: /home/andras/Documents/kop/docs/img/flowchart.png  use
-d on input line 561.
+d on input line 570.
 (pdftex.def)             Requested size: 422.27475pt x 174.95242pt.
 
-Overfull \hbox (1.8825pt too wide) in paragraph at lines 582--583
+Overfull \hbox (1.8825pt too wide) in paragraph at lines 591--592
 \OT1/ptm/m/n/12 s v[]ystupom cez [][] rezis-tor. Treba si v[]sak uve-domi[]t, [
 ]ze tento pr[]ud ani pri maxim[]alnych
  []
@@ -1452,10 +1468,10 @@ t>
 File: /home/andras/Documents/kop/docs/img/ekg-emi.png Graphic file (type png)
 <use /home/andras/Documents/kop/docs/img/ekg-emi.png>
 Package pdftex.def Info: /home/andras/Documents/kop/docs/img/ekg-emi.png  used 
-on input line 598.
+on input line 607.
 (pdftex.def)             Requested size: 460.97107pt x 100.37474pt.
 
-Overfull \hbox (3.16621pt too wide) in paragraph at lines 598--599
+Overfull \hbox (3.16621pt too wide) in paragraph at lines 607--608
  [] 
  []
 
@@ -1465,10 +1481,10 @@ File: /home/andras/Documents/kop/docs/img/ekg-chart.png Graphic file (type png)
 
 <use /home/andras/Documents/kop/docs/img/ekg-chart.png>
 Package pdftex.def Info: /home/andras/Documents/kop/docs/img/ekg-chart.png  use
-d on input line 600.
+d on input line 609.
 (pdftex.def)             Requested size: 460.97107pt x 92.84663pt.
 
-Overfull \hbox (3.16621pt too wide) in paragraph at lines 600--601
+Overfull \hbox (3.16621pt too wide) in paragraph at lines 609--610
  [][] 
  []
 
@@ -1478,87 +1494,87 @@ File: /home/andras/Documents/kop/docs/img/ekg-artefact.png Graphic file (type p
 ng)
 <use /home/andras/Documents/kop/docs/img/ekg-artefact.png>
 Package pdftex.def Info: /home/andras/Documents/kop/docs/img/ekg-artefact.png  
-used on input line 602.
+used on input line 611.
 (pdftex.def)             Requested size: 460.97107pt x 92.84663pt.
 
-Overfull \hbox (3.16621pt too wide) in paragraph at lines 602--603
+Overfull \hbox (3.16621pt too wide) in paragraph at lines 611--612
  [][] 
  []
 
 [25 </home/andras/Documents/kop/docs/img/ekg-emi.png> </home/andras/Documents/k
 op/docs/img/ekg-chart.png> </home/andras/Documents/kop/docs/img/ekg-artefact.pn
 g>] [26] [27]
-Overfull \hbox (18.32704pt too wide) in paragraph at lines 665--666
-[]\OT1/ptm/m/n/12 B[]ORIKOV[]A, Ivana. 2016. Funk[]cn[]e vy[]setrenie res-pira[
-]cn[]eho, kar-dio-vaskul[]arneho a mo[]cov[]eho
+Overfull \hbox (1.80028pt too wide) in paragraph at lines 662--663
+[]\OT1/ptm/m/n/12 Zariadenie meria biopo-tenci[]aly po-mo-cou povr-chov[]ych el
+ektr[]od. Po zosil-nen[]^^P sign[]al sprac[]uva
  []
 
-
-Overfull \hbox (20.43907pt too wide) in paragraph at lines 677--678
+[28]
+Overfull \hbox (20.43907pt too wide) in paragraph at lines 696--697
 \OT1/ptm/m/n/12 https://www.tme.eu/sk/Document/bd6787db93f837d8972974413558d5cd
 /HM-1553DBK.pdf 
  []
 
-[28] [29]
-</home/andras/Documents/kop/docs/img/vyvojova-doska.jpg, id=125, 859.21pt x 384
+[29] [30]
+</home/andras/Documents/kop/docs/img/vyvojova-doska.jpg, id=128, 859.21pt x 384
 .43625pt>
 File: /home/andras/Documents/kop/docs/img/vyvojova-doska.jpg Graphic file (type
  jpg)
 <use /home/andras/Documents/kop/docs/img/vyvojova-doska.jpg>
 Package pdftex.def Info: /home/andras/Documents/kop/docs/img/vyvojova-doska.jpg
-  used on input line 704.
+  used on input line 725.
 (pdftex.def)             Requested size: 257.76498pt x 115.33176pt.
-</home/andras/Documents/kop/docs/img/spajkovatelna-doska-1.jpg, id=126, 2445.13
+</home/andras/Documents/kop/docs/img/spajkovatelna-doska-1.jpg, id=129, 2445.13
 5pt x 1785.67125pt>
 File: /home/andras/Documents/kop/docs/img/spajkovatelna-doska-1.jpg Graphic fil
 e (type jpg)
 <use /home/andras/Documents/kop/docs/img/spajkovatelna-doska-1.jpg>
 Package pdftex.def Info: /home/andras/Documents/kop/docs/img/spajkovatelna-dosk
-a-1.jpg  used on input line 711.
+a-1.jpg  used on input line 732.
 (pdftex.def)             Requested size: 195.61479pt x 142.85661pt.
-</home/andras/Documents/kop/docs/img/spajkovatelna-doska-2.jpg, id=127, 2423.05
+</home/andras/Documents/kop/docs/img/spajkovatelna-doska-2.jpg, id=130, 2423.05
 25pt x 1782.66pt>
 File: /home/andras/Documents/kop/docs/img/spajkovatelna-doska-2.jpg Graphic fil
 e (type jpg)
 <use /home/andras/Documents/kop/docs/img/spajkovatelna-doska-2.jpg>
 Package pdftex.def Info: /home/andras/Documents/kop/docs/img/spajkovatelna-dosk
-a-2.jpg  used on input line 712.
+a-2.jpg  used on input line 733.
 (pdftex.def)             Requested size: 193.84816pt x 142.6157pt.
-</home/andras/Documents/kop/docs/img/skatulka-otvorena.jpg, id=128, 2745.25626p
+</home/andras/Documents/kop/docs/img/skatulka-otvorena.jpg, id=131, 2745.25626p
 t x 2298.5875pt>
 File: /home/andras/Documents/kop/docs/img/skatulka-otvorena.jpg Graphic file (t
 ype jpg)
 <use /home/andras/Documents/kop/docs/img/skatulka-otvorena.jpg>
 Package pdftex.def Info: /home/andras/Documents/kop/docs/img/skatulka-otvorena.
-jpg  used on input line 719.
+jpg  used on input line 740.
 (pdftex.def)             Requested size: 192.18758pt x 160.91756pt.
-</home/andras/Documents/kop/docs/img/skatulka-zatvorena.jpg, id=129, 1805.74625
+</home/andras/Documents/kop/docs/img/skatulka-zatvorena.jpg, id=132, 1805.74625
 pt x 2241.37375pt>
 File: /home/andras/Documents/kop/docs/img/skatulka-zatvorena.jpg Graphic file (
 type jpg)
 <use /home/andras/Documents/kop/docs/img/skatulka-zatvorena.jpg>
 Package pdftex.def Info: /home/andras/Documents/kop/docs/img/skatulka-zatvorena
-.jpg  used on input line 720.
+.jpg  used on input line 741.
 (pdftex.def)             Requested size: 130.02464pt x 161.39247pt.
- [30 </home/andras/Documents/kop/docs/img/vyvojova-doska.jpg> </home/andras/Doc
+ [31 </home/andras/Documents/kop/docs/img/vyvojova-doska.jpg> </home/andras/Doc
 uments/kop/docs/img/spajkovatelna-doska-1.jpg> </home/andras/Documents/kop/docs
 /img/spajkovatelna-doska-2.jpg> </home/andras/Documents/kop/docs/img/skatulka-o
 tvorena.jpg> </home/andras/Documents/kop/docs/img/skatulka-zatvorena.jpg>]
-</home/andras/Documents/kop/docs/img/BreadboardAVR.png, id=133, 2.9778pt x 4.02
+</home/andras/Documents/kop/docs/img/BreadboardAVR.png, id=137, 2.9778pt x 4.02
 33pt>
 File: /home/andras/Documents/kop/docs/img/BreadboardAVR.png Graphic file (type 
 png)
 <use /home/andras/Documents/kop/docs/img/BreadboardAVR.png>
 Package pdftex.def Info: /home/andras/Documents/kop/docs/img/BreadboardAVR.png 
- used on input line 729.
+ used on input line 751.
 (pdftex.def)             Requested size: 208.44482pt x 281.62994pt.
- [31 </home/andras/Documents/kop/docs/img/BreadboardAVR.png>]
+ [32 </home/andras/Documents/kop/docs/img/BreadboardAVR.png>]
 (./kop-dokumentacia.aux) ) 
 Here is how much of TeX's memory you used:
- 16713 strings out of 492982
- 325611 string characters out of 6134895
- 366954 words of memory out of 5000000
- 20069 multiletter control sequences out of 15000+600000
+ 16719 strings out of 492982
+ 325802 string characters out of 6134895
+ 367050 words of memory out of 5000000
+ 20072 multiletter control sequences out of 15000+600000
  584212 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,43p,10396b,987s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1570,10 +1586,10 @@ exlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on kop-dokumentacia.pdf (31 pages, 5620182 bytes).
+Output written on kop-dokumentacia.pdf (32 pages, 5621193 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
- 96 compressed objects within 1 object stream
+ 169 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
