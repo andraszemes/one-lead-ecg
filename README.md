@@ -46,10 +46,6 @@ heart_rate_monitor.exe
 
 * **András Zemes** - *Project developer* - [andraszemes](https://github.com/andraszemes)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 ## Acknowledgments
 
 * [Scott W harden](https://www.swharden.com/wp/)
